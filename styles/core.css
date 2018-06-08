@@ -1,0 +1,22 @@
+body {
+  background-color: #5d3c37;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1100px 1fr;
+  grid-template-rows: 18px min-content 90px;
+  grid-template-areas:
+    ". . ."
+    ". body ."
+    ". footer .";
+}
+
+.body {
+  grid-area: body;
+  background: white;
+}
+
+.footer {
+  grid-area: footer;
+}
