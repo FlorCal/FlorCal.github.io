@@ -1,2 +1,16 @@
+// varibles
+$cBrown: #5d3c37;
+$sFont: 14px;
+
+// main
 @import './app/reset.scss';
-@import './app/core.scss';
+@import './app/container.scss';
+
+// components
+@import './Header/index.scss';
+
+
+// core
+body {
+  background: $cBrown;
+}

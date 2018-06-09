@@ -3,7 +3,7 @@ import React from 'react'
 class HeaderComponent extends React.Component {
   render() {
     return (
-      <div className='header'>
+      <div className='HeaderComponent'>
         <div className="menu">
           skills projects contact
         </div>
