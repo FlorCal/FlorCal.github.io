@@ -1,6 +1,27 @@
 // varibles
+$cWhite: #fff;
+$cBlack: #000;
 $cBrown: #5d3c37;
 $sFont: 14px;
+$sFontHuge: 28px;
+$sFontBig: 18px;
+$sFontSmall: 12px;
+
+@font-face {
+    font-family: fMedium;
+    src: url('app/fonts/Avenir-Medium-09.ttf');
+}
+
+@font-face {
+    font-family: fLight;
+    src: url('app/fonts/Avenir-Light-07.ttf');
+}
+
+@font-face {
+    font-family: fBlack;
+    src: url('app/fonts/Avenir-Black-03.ttf');
+}
+
 
 // main
 @import './app/reset.scss';
@@ -12,5 +33,7 @@ $sFont: 14px;
 
 // core
 body {
-  background: $cBrown;
+    background: $cBrown;
+    font-family: fMedium;
+    font-size: $sFont;
 }

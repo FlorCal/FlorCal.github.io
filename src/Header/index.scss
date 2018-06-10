@@ -1,35 +1,35 @@
 .HeaderComponent {
-  display: grid;
-  grid-template-columns: 250px 2fr 1fr 200px;
-  grid-template-rows: 50px repeat(2, 90px) 50px;
-  grid-template-areas:
-    "menu menu menu menu"
-    "portrait name flower resume"
-    "portrait info flower resume"
-    "slant slant slant slant";
+    display: grid;
+    grid-template-columns: 250px 2fr 1fr 200px;
+    grid-template-rows: 50px repeat(2, 90px) 50px;
+    grid-template-areas:
+    'menu menu menu menu'
+    'portrait name flower resume'
+    'portrait info flower resume'
+    'slant slant slant slant';
 
-  .menu {
-    grid-area: menu;
-  }
+    .menu {
+        grid-area: menu;
+    }
 
-  .portrait {
-    grid-area: portrait;
-  }
+    .portrait {
+        grid-area: portrait;
+    }
 
-  .name {
-    grid-area: name;
-  }
+    .name {
+        grid-area: name;
+    }
 
-  .flower {
-    grid-area: flower;
-  }
+    .flower {
+        grid-area: flower;
+    }
 
-  .resume {
-    grid-area: resume;
-  }
+    .resume {
+        grid-area: resume;
+    }
 
-  .info {
-    grid-area: info;
-  }
+    .info {
+        grid-area: info;
+    }
 
 } // .HeaderComponent

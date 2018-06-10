@@ -1,20 +1,20 @@
 .container {
-  display: grid;
-  grid-template-columns: 1fr 1100px 1fr;
-  grid-template-rows: 18px min-content 90px;
-  grid-template-areas:
-    ". . ."
-    ". body ."
-    ". footer .";
+    display: grid;
+    grid-template-areas:
+    '. . .'
+    '. body .'
+    '. footer .';
+    grid-template-columns: 1fr 1100px 1fr;
+    grid-template-rows: 18px min-content 90px;
 }
 
 .page {
-  grid-area: body;
-  background: white;
-  border-radius: 3px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+    grid-area: body;
+    background: $cWhite;
+    border-radius: 3px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .5);
 }
 
 .footer {
-  grid-area: footer;
+    grid-area: footer;
 }
