@@ -6,7 +6,9 @@ class HeaderComponent extends React.Component {
     return (
       <div className='HeaderComponent'>
         <div className="menu">
-          skills projects contact
+          <a className='skills'>Skills</a>
+          <a className='projects'>Projects</a>
+          <a className='contact'>Contact</a>
         </div>
         <div className="portrait">
           <img src={portrait} />
