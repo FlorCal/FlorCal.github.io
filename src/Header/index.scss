@@ -8,6 +8,10 @@
     'portrait info flower resume'
     'slant slant slant slant';
 
+    & > div {
+        border: 1px solid red;
+    }
+
     .menu {
         grid-area: menu;
     }
@@ -18,6 +22,18 @@
 
     .name {
         grid-area: name;
+
+        h1 {
+            padding-top: $sFont;
+            font-size: $sFontHuge;
+            font-family: fLight;
+            color: $cBlack;
+        }
+
+        h2 {
+            font-size: $sFontBig;
+            padding-top: 10px;
+        }
     }
 
     .flower {

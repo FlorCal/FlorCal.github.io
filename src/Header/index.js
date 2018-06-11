@@ -1,4 +1,5 @@
 import React from 'react'
+import portrait from '../app/img/portrait.jpg'
 
 class HeaderComponent extends React.Component {
   render() {
@@ -8,10 +9,11 @@ class HeaderComponent extends React.Component {
           skills projects contact
         </div>
         <div className="portrait">
-          pic of me
+          <img src={portrait} />
         </div>
         <div className="name">
-          Flor Calderon
+          <h1>Flor Calderon</h1>
+          <h2>Developer, Designer & Customer Advocate</h2>
         </div>
         <div className="flower">
           tech flower

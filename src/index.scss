@@ -36,4 +36,7 @@ body {
     background: $cBrown;
     font-family: fMedium;
     font-size: $sFont;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: $cBrown;
 }
