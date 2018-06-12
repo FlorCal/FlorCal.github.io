@@ -5,6 +5,7 @@ import ReactDOM from 'react-dom'
 
 // components
 import Header from './Header'
+import Skills from './Skills'
 
 
 class Container extends React.Component {
@@ -13,6 +14,7 @@ class Container extends React.Component {
       <div className='container'>
         <div className='page'>
           <Header />
+          <Skills />
         </div>
         <div className='footer'>
           footer

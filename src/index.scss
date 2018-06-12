@@ -1,5 +1,6 @@
 // varibles
 $cWhite: #fff;
+$cGrey: #ebeff2;
 $cBlack: #000;
 $cBrown: #5d3c37;
 $sFont: 14px;
@@ -29,7 +30,7 @@ $sFontSmall: 12px;
 
 // components
 @import './Header/index.scss';
-
+@import './Skills/index.scss';
 
 // core
 body {

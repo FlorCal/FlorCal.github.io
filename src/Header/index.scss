@@ -7,6 +7,7 @@
     'portrait name flower resume'
     'portrait info flower resume'
     'slant slant slant slant';
+    background: $cGrey;
 
     // & > div {
     //     border: 1px solid red;
@@ -45,8 +46,8 @@
         box-shadow: 0 5px 7px rgba(0, 0, 0, .3);
 
         img {
-          height: 170px;
-          width: 170px;
+            height: 170px;
+            width: 170px;
         }
     }
 
@@ -79,15 +80,19 @@
         padding-left: 22px;
         border-left: 3px solid $cBrown;
 
-        .p1 {
-            padding-top: 10px;
-        }
 
-        .p2,
-        .p3 {
-            padding-top: $sFont;
+        p {
+            padding-top: 12px;
         }
+    } // .info
 
+    .slant {
+        width: 0;
+        height: 0;
+        border-left: 1100px solid transparent;
+        border-bottom: 50px solid $cWhite;
+        // TODO: bring shadow to slant
+        // box-shadow: 0 -5px 7px rgba(0, 0, 0, .3);
     }
 
 } // .HeaderComponent

@@ -24,21 +24,21 @@ class HeaderComponent extends React.Component {
           download resume
         </div>
         <div className="info">
-          <p className='p1'>
+          <p>
             <span>Current Location: </span>
             <span className='fBlack'>San Jose, CA</span>
           </p>
-          <p className='p2'>
+          <p>
             <span>Work Authorization: </span>
             <span className='fBlack'>US Citizen</span>
           </p>
-          <p className='p3'>
+          <p>
             <span>Job Status: </span>
             <span className='fBlack'>Looking for opportunities</span>
           </p>
         </div>
         <div className="slant">
-          slant
+          
         </div>
       </div>
     );
