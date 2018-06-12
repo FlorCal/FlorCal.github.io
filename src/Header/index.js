@@ -1,5 +1,7 @@
 import React from 'react'
 import portrait from '../app/img/portrait.jpg'
+import flower from '../app/img/flower.svg'
+import resume from '../app/img/resume.svg'
 
 class HeaderComponent extends React.Component {
   render() {
@@ -18,10 +20,12 @@ class HeaderComponent extends React.Component {
           <h2>Developer, Designer & Customer Advocate</h2>
         </div>
         <div className="flower">
-          tech flower
+          <img src={flower} />
         </div>
         <div className="resume">
-          download resume
+          <img src={resume} />
+          <br/>
+          <span>Download <br/> Resume</span>
         </div>
         <div className="info">
           <p>
@@ -38,7 +42,7 @@ class HeaderComponent extends React.Component {
           </p>
         </div>
         <div className="slant">
-          
+
         </div>
       </div>
     );

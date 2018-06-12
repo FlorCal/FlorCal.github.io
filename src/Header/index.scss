@@ -69,11 +69,23 @@
 
     .flower {
         grid-area: flower;
+        justify-self: center;
+        padding-top: 35px;
     }
 
     .resume {
         grid-area: resume;
-    }
+        justify-self: center;
+        align-self: center;
+        font-family: fBlack;
+        font-size: $sFontSmall;
+
+
+        & > img {
+            padding: 5px 10px;
+        }
+
+    } //.resume 
 
     .info {
         grid-area: info;
