@@ -19,13 +19,19 @@
         align-self: center;
 
         a {
-            margin-right: 32px;
-            color: #302e2f;
+            margin: 8px;
+            color: darken($cBrown, 10%);
+            padding: 0 10px;
+
+            &.active {
+                border-bottom: 1px solid $cBrown;
+            }
+
+            &:last-child {
+                margin-right: 24px;
+            }
         }
 
-        .skills {
-            border-bottom: 1px solid #5d3c37;
-        }
     }
 
     .portrait {
@@ -70,6 +76,18 @@
 
     .info {
         grid-area: info;
+        padding-left: 22px;
+        border-left: 3px solid $cBrown;
+
+        .p1 {
+            padding-top: 10px;
+        }
+
+        .p2,
+        .p3 {
+            padding-top: $sFont;
+        }
+
     }
 
 } // .HeaderComponent

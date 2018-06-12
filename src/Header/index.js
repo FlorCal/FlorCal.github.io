@@ -6,9 +6,9 @@ class HeaderComponent extends React.Component {
     return (
       <div className='HeaderComponent'>
         <div className="menu">
-          <a className='skills'>Skills</a>
-          <a className='projects'>Projects</a>
-          <a className='contact'>Contact</a>
+          <a className='active'>Skills</a>
+          <a>Projects</a>
+          <a>Contact</a>
         </div>
         <div className="portrait">
           <img src={portrait} />
@@ -24,8 +24,18 @@ class HeaderComponent extends React.Component {
           download resume
         </div>
         <div className="info">
-          location
-          work auth
+          <p className='p1'>
+            <span>Current Location: </span>
+            <span className='fBlack'>San Jose, CA</span>
+          </p>
+          <p className='p2'>
+            <span>Work Authorization: </span>
+            <span className='fBlack'>US Citizen</span>
+          </p>
+          <p className='p3'>
+            <span>Job Status: </span>
+            <span className='fBlack'>Looking for opportunities</span>
+          </p>
         </div>
         <div className="slant">
           slant
