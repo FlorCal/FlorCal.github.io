@@ -1,11 +1,13 @@
 import React from 'react'
-import portrait from '../app/img/portrait.jpg'
+import Ribbon from '../app/Ribbon'
+import Skill from '../app/Skill'
 
 class SkillsComponent extends React.Component {
   render() {
     return (
       <div className='SkillsComponent'>
-        Skills
+        <Ribbon />
+        <Skill />
       </div>
     );
   }

@@ -1,11 +1,10 @@
 .SkillsComponent {
+    position: relative;
     display: grid;
-    grid-template-columns: 250px 2fr 1fr 200px;
-    grid-template-rows: 50px repeat(2, 90px) 50px;
+    background: $cWhite;
+    grid-template-columns: 490px 1fr 125px;
+    grid-template-rows: 160px 240px;
     grid-template-areas:
-    'menu menu menu menu'
-    'portrait name flower resume'
-    'portrait info flower resume'
-    'slant slant slant slant';
-    
+    '. . .'
+    '. . .';
 } // .SkillsComponent
