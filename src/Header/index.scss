@@ -23,10 +23,13 @@
             margin: 8px;
             color: darken($cBrown, 10%);
             padding: 0 10px;
+            cursor: pointer;
 
+            &:hover,
             &.active {
                 border-bottom: 1px solid $cBrown;
             }
+
 
             &:last-child {
                 margin-right: 24px;
@@ -79,12 +82,18 @@
         align-self: center;
         font-family: fBlack;
         font-size: $sFontSmall;
+        text-align: center;
+        cursor: pointer;
 
-
-        & > img {
-            padding: 5px 10px;
+        &:hover {
+            span {
+                text-decoration: underline;
+            }
         }
 
+        img {
+            padding: 5px 10px;
+        }
     } //.resume
 
     .info {
@@ -105,7 +114,7 @@
         background: $cWhite;
         transform-origin: top right;
         transform: skewY(-2.5deg);
-        box-shadow: 0 -5px 7px rgba(0, 0, 0, .3);
+        box-shadow: 0 -5px 10px rgba(0, 0, 0, .1);
       }
 
 } // .HeaderComponent

@@ -2,8 +2,15 @@ import React from 'react'
 import portrait from '../app/img/portrait.jpg'
 import flower from '../app/img/flower.svg'
 import resume from '../app/img/resume.svg'
+import constants from '../app/constants'
 
 class HeaderComponent extends React.Component {
+
+  onResumeClick() {
+    var win = window.open(constants.urls.myResume, '_blank');
+    win.focus();
+  }
+
   render() {
     return (
       <div className='HeaderComponent'>
@@ -22,10 +29,10 @@ class HeaderComponent extends React.Component {
         <div className="flower">
           <img src={flower} />
         </div>
-        <div className="resume">
+        <div className="resume" onClick={this.onResumeClick.bind(this)}>
           <img src={resume} />
           <br/>
-          <span>Download <br/> Resume</span>
+          <span>Download<br/>Resume</span>
         </div>
         <div className="info">
           <p>
