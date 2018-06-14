@@ -1,6 +1,6 @@
 import React from 'react'
 import Ribbon from '../app/Ribbon'
-import Skill from '../app/Skill'
+import Skill from './Skill'
 
 class SkillsComponent extends React.Component {
   render() {
