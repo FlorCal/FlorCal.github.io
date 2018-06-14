@@ -6,7 +6,7 @@ class SkillsComponent extends React.Component {
   render() {
     return (
       <div className='SkillsComponent'>
-        <Ribbon />
+        <Ribbon title='Skills'/>
         <Skill />
       </div>
     );

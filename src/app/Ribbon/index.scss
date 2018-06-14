@@ -1,0 +1,16 @@
+.RibbonComponent {
+    width: 223px;
+    height: 60px;
+    background: url('./app/img/ribbon.svg');
+    background-size: 100%;
+    margin: 30px 0 0 -16px;
+
+    .title {
+        margin-top: 17px;
+        color: $cWhite;
+        font-size: $sFontBig;
+        text-align: center;
+        transform: rotate(-2.9deg);
+        letter-spacing: 1px;
+    }
+}
