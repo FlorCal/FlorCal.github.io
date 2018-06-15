@@ -1,0 +1,33 @@
+.SkillComponent {
+    width: 410px;
+    height: 30px;
+    display: grid;
+    background: $cWhite;
+    grid-template-columns: 160px 1fr 30px;
+    grid-template-rows: 30px;
+    grid-template-areas: 'title rating points';
+    align-items: center;
+    font-family: fBlack;
+    border: 1px solid red;
+
+    .title {
+        grid-area: title;
+        justify-self: right;
+    }
+
+    .rating {
+        grid-area: rating;
+        justify-self: center;
+    }
+
+    .points {
+        grid-area: points;
+        justify-self: left;
+    }
+
+    div {
+        border: 1px solid red;
+
+    }
+
+} // .SkillsComponent

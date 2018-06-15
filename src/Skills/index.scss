@@ -3,8 +3,19 @@
     display: grid;
     background: $cWhite;
     grid-template-columns: 490px 1fr 125px;
-    grid-template-rows: 160px 240px;
+    grid-template-rows: 130px min-content;
     grid-template-areas:
-    '. . .'
-    '. . .';
+    'Ribbon . .'
+    'group1 group2 .';
+
+    .group1 {
+        grid-area: group1;
+        justify-self: right;
+        margin-bottom: 100px;
+    }
+
+    .group2 {
+        grid-area: group2;
+        justify-self: right;
+    }
 } // .SkillsComponent

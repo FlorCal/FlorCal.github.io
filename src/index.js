@@ -8,7 +8,7 @@ import './index.scss'
 import Header from './Header'
 import Skills from './Skills'
 import Ribbon from './app/Ribbon'
-import Skill from './app/Skill'
+import Skill from './Skills/Skill'
 
 
 class Container extends React.Component {
