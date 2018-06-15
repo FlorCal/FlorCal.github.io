@@ -1,0 +1,31 @@
+.FooterComponent {
+    display: grid;
+    grid-template-columns: 120px 120px;
+    grid-template-rows: 40px;
+    grid-template-areas: 'github linkedin';
+    border: 1px solid blue;
+    font-size: $sFont;
+    align-items: center;
+
+
+    .github {
+        grid-area: github;
+        justify-self: right;
+        cursor: pointer;
+
+
+        a:hover {
+            border-bottom: 1px solid $cWhite;
+        }
+
+    }
+    .linkedin {
+        grid-area: linkedin;
+        justify-self: right;
+        cursor: pointer;
+
+        a:hover {
+            border-bottom: 1px solid $cWhite;
+        }
+    }
+}

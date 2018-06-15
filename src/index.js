@@ -9,6 +9,7 @@ import Header from './Header'
 import Skills from './Skills'
 import Ribbon from './app/Ribbon'
 import Skill from './Skills/Skill'
+import Footer from './Footer'
 
 
 class Container extends React.Component {
@@ -20,7 +21,7 @@ class Container extends React.Component {
           <Skills />
         </div>
         <div className='footer'>
-          footer
+          <Footer />
         </div>
       </div>
     );

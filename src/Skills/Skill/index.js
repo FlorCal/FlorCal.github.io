@@ -11,7 +11,7 @@ class SkillComponent extends React.Component {
           hgfjijs;ijgjgkjsk
         </div>
         <div className='points'>
-          8.5
+          {this.props.points}
         </div>
       </div>
     );

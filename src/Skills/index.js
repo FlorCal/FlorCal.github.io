@@ -14,6 +14,15 @@ class SkillsComponent extends React.Component {
           <Skill
             title='React'
             points={7.1} />
+          <Skill
+            title='jQuery'
+            points={6.2} />
+          <Skill
+            title='D3 / SVG'
+            points={4.5} />
+          <Skill
+            title='Node / Express'
+            points={3.9} />
         </div>
         <div className='group2'>
           <Skill
@@ -22,6 +31,15 @@ class SkillsComponent extends React.Component {
           <Skill
             title='CSS3 / Sass'
             points={8.1} />
+          <Skill
+            title='Git / GitHub'
+            points={5.2} />
+          <Skill
+            title='Scrum / Trello'
+            points={9.1} />
+          <Skill
+            title='Sketch / Design'
+            points={6.5} />
         </div>
       </div>
     );
