@@ -7,7 +7,7 @@ class FooterComponent extends React.Component {
   onGithubClick() {
     var win = window.open(constants.urls.myGit, '_blank');
     win.focus();
-  }
+  }t
 
   render() {
     return(
