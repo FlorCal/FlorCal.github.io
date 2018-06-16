@@ -7,7 +7,12 @@ class FooterComponent extends React.Component {
   onGithubClick() {
     var win = window.open(constants.urls.myGit, '_blank');
     win.focus();
-  }t
+  }
+
+  onLinkedinClick() {
+    var win = window.open(constants.urls.myLinkedin, '_blank');
+    win.focus();
+  }
 
   render() {
     return(
@@ -16,7 +21,8 @@ class FooterComponent extends React.Component {
         onClick={this.onGithubClick.bind(this)}>
           <a>GitHub</a>
         </div>
-        <div className='linkedin'>
+        <div className='linkedin'
+        onClick={this.onLinkedinClick.bind(this)}>
           <a>Linkedin</a>
         </div>
       </div>
