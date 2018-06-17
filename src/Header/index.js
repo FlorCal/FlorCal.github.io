@@ -1,8 +1,12 @@
+// libraries
 import React from 'react'
+
+// assets
 import portrait from '../app/img/portrait.jpg'
 import flower from '../app/img/flower.svg'
 import resume from '../app/img/resume.svg'
 import constants from '../app/constants'
+
 
 class HeaderComponent extends React.Component {
 

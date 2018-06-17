@@ -1,5 +1,27 @@
 .ProjectComponent {
     display: grid;
     border: 1px solid red;
-    
-}
+    grid-template-columns: 520px 1fr;
+    grid-template-rows: 120px 260px;
+    grid-template-areas:
+    'desktop title'
+    'desktop info';
+
+    .desktop {
+        grid-area: desktop;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .screen {
+        grid-area: desktop;
+        justify-self: center;
+        margin-top: 30px;
+        height: 225px;
+        width: 390px;
+        background-size: 100% 100%;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+
+    }
+}//ProjectComponent
