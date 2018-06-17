@@ -7,8 +7,8 @@ import './index.scss'
 // components
 import Header from './Header'
 import Skills from './Skills'
-import Ribbon from './app/Ribbon'
-import Skill from './Skills/Skill'
+import Projects from './Projects'
+
 import Footer from './Footer'
 
 
@@ -19,6 +19,7 @@ class Container extends React.Component {
         <div className='page'>
           <Header />
           <Skills />
+          <Projects />
         </div>
         <div className='footer'>
           <Footer />
