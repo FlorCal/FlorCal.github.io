@@ -1,31 +1,59 @@
 .FooterComponent {
     display: grid;
-    grid-template-columns: 120px 120px;
+    grid-template-columns: 180px 180px 1fr;
     grid-template-rows: 40px;
-    grid-template-areas: 'github linkedin';
-    border: 1px solid blue;
+    grid-template-areas: 'linkedin github';
     font-size: $sFont;
     align-items: center;
+    padding-top: 8px;
 
+    .linkedin {
+        grid-area: linkedin;
+        display: grid;
+        grid-template-columns: 80px 80px;
+        grid-template-areas: 'img a';
+        cursor: pointer;
+
+        img {
+            grid-area: img;
+            padding-left: 47px;
+        }
+
+        a {
+            justify-self: right;
+            padding-top: 5px;
+        }
+
+        &:hover {
+            a {
+                text-decoration: underline;
+            }
+        }
+    }
 
     .github {
         grid-area: github;
-        justify-self: right;
+        display: grid;
+        grid-template-columns: 80px 80px;
+        grid-template-areas: 'img a';
         cursor: pointer;
 
-
-        a:hover {
-            border-bottom: 1px solid $cWhite;
+        img {
+            grid-area: img;
+            justify-self: right;
         }
 
-    }
-    .linkedin {
-        grid-area: linkedin;
-        justify-self: right;
-        cursor: pointer;
-
-        a:hover {
-            border-bottom: 1px solid $cWhite;
+        a {
+            justify-self: right;
+            padding-top: 5px;
         }
-    }
+
+        &:hover {
+            a {
+                text-decoration: underline;
+            }
+        }
+
+     }
+
 }

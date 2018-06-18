@@ -1,5 +1,11 @@
+// libraries
 import React from 'react';
+
+//assets
 import constants from '../app/constants'
+import githubLogo from '../app/img/github-logo.svg'
+import linkedinLogo from '../app/img/linkedin-logo.svg'
+
 
 
 class FooterComponent extends React.Component {
@@ -17,13 +23,15 @@ class FooterComponent extends React.Component {
   render() {
     return(
       <div className='FooterComponent'>
-        <div className='github'
-        onClick={this.onGithubClick.bind(this)}>
-          <a>GitHub</a>
-        </div>
         <div className='linkedin'
         onClick={this.onLinkedinClick.bind(this)}>
-          <a>Linkedin</a>
+          <img src={linkedinLogo} />
+          <a>My Linkedin</a>
+        </div>
+        <div className='github'
+        onClick={this.onGithubClick.bind(this)}>
+          <img src={githubLogo} />
+          <a>My GitHub</a>
         </div>
       </div>
     )

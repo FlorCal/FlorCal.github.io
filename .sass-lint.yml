@@ -19,3 +19,5 @@ rules:
     - 0
   nesting-depth:
     - 0
+  force-pseudo-nesting:
+    - 0  
