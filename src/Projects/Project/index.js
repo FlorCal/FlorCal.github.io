@@ -25,7 +25,15 @@ class ProjectComponent extends React.Component {
               background: 'url('+this.props.icon+')'
             }}>
           </div>
-          
+
+          <div className='name'>
+            {this.props.name}
+          </div>
+
+          <div className='description'>
+            {this.props.description}
+          </div>
+
         </div>
 
       </div>
