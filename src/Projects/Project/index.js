@@ -9,12 +9,25 @@ class ProjectComponent extends React.Component {
   render() {
     return (
       <div className='ProjectComponent'>
+
         <img src={desktop} className='desktop' />
-        <div
-        style={{
-          background: 'url('+this.props.screens[0]+')'
-        }}
-        className='screen'/>
+
+        <div className='screen'
+          style={{
+            background: 'url('+this.props.screens[0]+')'
+          }}>
+        </div>
+
+        <div className='company'>
+
+          <div className='icon'
+            style={{
+              background: 'url('+this.props.icon+')'
+            }}>
+          </div>
+          
+        </div>
+
       </div>
     )
   }
