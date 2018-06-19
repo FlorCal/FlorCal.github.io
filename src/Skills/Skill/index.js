@@ -1,15 +1,46 @@
 import React from 'react'
 
 class SkillComponent extends React.Component {
+
+
+  plotCircles() {
+    let out = []
+    let circleRadius = 8
+    let barWidth = 210
+
+    // distance between 10 circle
+    let step = (barWidth - circleRadius * 2) / 9
+
+    for(let i = 0; i < 10; i++) {
+      out.push(<circle cx={circleRadius + step * i} cy={circleRadius} r={circleRadius} key={i}/>)
+    }
+    return out
+
+  }
+
   render() {
     return (
       <div className='SkillComponent'>
         <div className='title'>
           {this.props.title}
         </div>
+
         <div className='rating'>
-          hgfjijs;ijgjgkjsk
+          <svg>
+            <defs>
+              <clipPath id="clipping">
+                {this.plotCircles()}
+              </clipPath>
+            </defs>
+          </svg>
+
+          <div className="grey"></div>
+          <div className="fill"
+          style={{
+            width: 210 * this.props.points / 10
+          }}></div>
         </div>
+
         <div className='points'>
           {this.props.points}
         </div>
