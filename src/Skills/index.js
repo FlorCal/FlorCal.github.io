@@ -10,7 +10,7 @@ class SkillsComponent extends React.Component {
         <div className='group1'>
           <Skill
             title='JavaScript / ES6'
-            points={8.5} />
+            points={7.5} />
           <Skill
             title='React'
             points={7.1} />

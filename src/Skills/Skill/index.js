@@ -11,6 +11,7 @@ class SkillComponent extends React.Component {
     // distance between 10 circle
     let step = (barWidth - circleRadius * 2) / 9
 
+    // Iteration to get cx, x-axis coordinate
     for(let i = 0; i < 10; i++) {
       out.push(<circle cx={circleRadius + step * i} cy={circleRadius} r={circleRadius} key={i}/>)
     }
@@ -39,6 +40,7 @@ class SkillComponent extends React.Component {
           style={{
             width: 210 * this.props.points / 10
           }}></div>
+           {/* calculation for fill of circles */}
         </div>
 
         <div className='points'>

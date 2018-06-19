@@ -14,6 +14,8 @@ class ProjectComponent extends React.Component {
 
         <div className='screen'
           style={{
+            //  proportions for screen inherited from scss
+            // to use for every desktop screen
             background: 'url('+this.props.screens[0]+')'
           }}>
         </div>
@@ -22,6 +24,8 @@ class ProjectComponent extends React.Component {
 
           <div className='icon'
             style={{
+              //  proportions for icon inherited from scss
+              // to use for every company icon
               background: 'url('+this.props.icon+')'
             }}>
           </div>
