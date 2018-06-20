@@ -2,7 +2,8 @@
     display: grid;
     grid-template-columns: 180px 180px 1fr;
     grid-template-rows: 40px;
-    grid-template-areas: 'linkedin github';
+    grid-template-areas:
+    'linkedin github copyright';
     font-size: $sFont;
     align-items: center;
     padding-top: 8px;
@@ -10,13 +11,14 @@
     .linkedin {
         grid-area: linkedin;
         display: grid;
-        grid-template-columns: 80px 80px;
+        grid-template-columns: 60px 90px;
         grid-template-areas: 'img a';
         cursor: pointer;
 
         img {
             grid-area: img;
-            padding-left: 47px;
+            justify-self: right;
+
         }
 
         a {
@@ -56,4 +58,9 @@
 
      }
 
-}
+    .copyright {
+        justify-self: right;
+        padding-right: 40px;
+    }
+
+}// FooterComponent

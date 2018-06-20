@@ -1,7 +1,11 @@
+// libraries
 import React from 'react'
+
+// components
 import Ribbon from '../app/Ribbon'
 import Skill from './Skill'
 
+// assets
 import constants from '../app/constants'
 
 class SkillsComponent extends React.Component {

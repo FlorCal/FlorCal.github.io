@@ -33,6 +33,9 @@ class FooterComponent extends React.Component {
                     <img src={githubLogo} />
                     <a>My GitHub</a>
                 </div>
+                <div className='copyright'>
+                    <a>© 2018 Flor Calderon</a>
+                </div>
             </div>
         )
     }

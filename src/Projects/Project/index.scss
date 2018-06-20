@@ -67,7 +67,7 @@
         'technologies description2'
         'years description3'
         'location description4'
-        '. link';
+        'url link';
 
         .role {
             grid-area: role;
@@ -89,6 +89,12 @@
 
         .location {
             grid-area: location;
+            justify-self: right;
+            align-self: end;
+        }
+
+        .url {
+            grid-area: url;
             justify-self: right;
             align-self: end;
         }
