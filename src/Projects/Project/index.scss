@@ -55,4 +55,72 @@
 
         }
     }
+
+    .info {
+        grid-area: info;
+        border: 1px solid blue;
+        display: grid;
+        grid-template-columns: 130px 280px;
+        grid-template-rows: repeat(5, 30px);
+        grid-template-areas:
+        'role description1'
+        'technologies description2'
+        'years description3'
+        'location description4'
+        '. link';
+
+        .role {
+            grid-area: role;
+            justify-self: right;
+            align-self: end;
+        }
+
+        .technologies {
+            grid-area: technologies;
+            justify-self: right;
+            align-self: end;
+        }
+
+        .years {
+            grid-area: years;
+            justify-self: right;
+            align-self: end;
+        }
+
+        .location {
+            grid-area: location;
+            justify-self: right;
+            align-self: end;
+        }
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }//ProjectComponent
