@@ -1,3 +1,8 @@
+// assets
+import gridmanScreen from './img/projects/gridman-screen.jpg'
+import gridmanIcon from './img/projects/gridman-icon.png'
+
+
 var constants = {
     urls: {
         myResume: 'https://docs.google.com/document/d/1zMPzSCq54XSOGFKlDuBzbet3U_oo-87ZB6R_MieDJGA/edit?usp=sharing',
@@ -24,7 +29,17 @@ var constants = {
             ['Scrum / Trello', 9.1],
             ['Sketch / Design', 6.5]
         ]
-    }
+    },
+
+    projects: [
+        {
+            name: 'Gridman',
+            screens: [gridmanScreen],
+            icon: gridmanIcon,
+            description:'CSS Grid inspector for Chrome. The only one CSS-grid highlighter that is lightning Fast!  I’m working on it as Developer.',
+            infoA:['Front end Web Developer','React, SVG, CSS Grid', 2018, 'San Jose, CA', 'https://goo.gl/kuP9iR']
+        }
+    ]
 
 }
 
