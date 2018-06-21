@@ -20,6 +20,7 @@
 
   "rules": {
     "react/prop-types": 0,
-    "indent": ["error", 4]
+    "indent": ["error", 4],
+    "no-debugger": 0
   }
 }

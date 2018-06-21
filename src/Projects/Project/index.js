@@ -6,6 +6,12 @@ import desktop from '../../app/img/desktop.svg'
 
 
 class ProjectComponent extends React.Component {
+
+    onExternalLinkClick() {
+        var win = window.open(this.props.infoA[4], '_blank');
+        win.focus();
+    }
+
     render() {
         return (
             <div className='ProjectComponent'>
@@ -49,11 +55,11 @@ class ProjectComponent extends React.Component {
                 </div>
 
                 <div className='infoA fBlack' >
-                    <div>Front End Web Engineer</div>
-                    <div>React, SVG, CSS Grid</div>
-                    <div>2018</div>
-                    <div>San Jose, CA</div>
-                    <div>https://goo.gl/kuP9iR <i /></div>
+                    <div>{this.props.infoA[0]}</div>
+                    <div>{this.props.infoA[1]}</div>
+                    <div>{this.props.infoA[2]}</div>
+                    <div>{this.props.infoA[3]}</div>
+                    <div onClick={this.onExternalLinkClick.bind(this)}>{this.props.infoA[4]}<i /></div>
                 </div>
 
 
