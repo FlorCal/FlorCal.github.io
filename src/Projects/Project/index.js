@@ -40,19 +40,20 @@ class ProjectComponent extends React.Component {
 
                 </div>
 
-                <div className='info'>
+                <div className='infoQ'>
+                    <div>My Role</div>
+                    <div>Technologies Used</div>
+                    <div>Year of Work</div>
+                    <div>Location</div>
+                    <div>Url</div>
+                </div>
 
-                    <div className='role'>My Role</div>
-                    <div className='technologies'>Technologies Used</div>
-                    <div className='years'>Year of Work</div>
-                    <div className='location'>Location</div>
-                    <div className='url'>Url</div>
-
-                    <div className='description1'></div>
-                    <div className='description2'></div>
-                    <div className='description3'></div>
-                    <div className='description4'></div>
-
+                <div className='infoA fBlack' >
+                    <div>Front End Web Engineer</div>
+                    <div>React, SVG, CSS Grid</div>
+                    <div>2018</div>
+                    <div>San Jose, CA</div>
+                    <div>https://goo.gl/kuP9iR <i /></div>
                 </div>
 
 

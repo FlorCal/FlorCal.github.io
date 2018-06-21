@@ -1,11 +1,11 @@
 .ProjectComponent {
     display: grid;
-    border: 1px solid red;
-    grid-template-columns: 520px 1fr;
+    // border: 1px solid red;
+    grid-template-columns: 520px 125px 1fr;
     grid-template-rows: 120px 260px;
     grid-template-areas:
-    'desktop title'
-    'desktop info';
+    'desktop title title'
+    'desktop infoQ infoA';
 
     .desktop {
         grid-area: desktop;
@@ -56,77 +56,39 @@
         }
     }
 
-    .info {
-        grid-area: info;
-        border: 1px solid blue;
-        display: grid;
-        grid-template-columns: 130px 280px;
-        grid-template-rows: repeat(5, 30px);
-        grid-template-areas:
-        'role description1'
-        'technologies description2'
-        'years description3'
-        'location description4'
-        'url link';
+    .infoQ {
+        grid-area: infoQ;
 
-        .role {
-            grid-area: role;
-            justify-self: right;
-            align-self: end;
+        div {
+            text-align: right;
+            padding: 5px 0;
         }
+    }
 
-        .technologies {
-            grid-area: technologies;
-            justify-self: right;
-            align-self: end;
+    .infoA {
+        grid-area: infoA;
+        border-left: 1px solid $cBrown;
+        margin-left: 5px;
+        padding-left: 5px;
+        height: fit-content;
+
+        div {
+            padding: 5px 0;
+
+            &:last-child {
+                cursor: pointer;
+                color: $cBlue;
+                margin-top: -2px;
+
+                i {
+                    height: 16px;
+                    width: 16px;
+                    background: url('./app/img/external-link.svg');
+                    background-size: 100%;
+                    display: inline-block;
+                    margin: 0 0 -3px 5px;
+                }
+            }
         }
-
-        .years {
-            grid-area: years;
-            justify-self: right;
-            align-self: end;
-        }
-
-        .location {
-            grid-area: location;
-            justify-self: right;
-            align-self: end;
-        }
-
-        .url {
-            grid-area: url;
-            justify-self: right;
-            align-self: end;
-        }
-      }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    }
 }//ProjectComponent
