@@ -13,8 +13,12 @@ class ProjectComponent extends React.Component {
     }
 
     render() {
+        let d = this.props.data
+
         return (
-            <div className='ProjectComponent'>
+            <div className={'ProjectComponent' +
+                (d.right ? ' right' : '')
+            }>
 
                 <img src={desktop} className='desktop' />
 
@@ -22,7 +26,7 @@ class ProjectComponent extends React.Component {
                     style={{
                         //  proportions for screen inherited from scss
                         // to use for every desktop screen
-                        background: 'url('+this.props.data.screens[0]+')'
+                        background: 'url(' + d.screens[0] + ')'
                     }}>
                 </div>
 
@@ -32,17 +36,18 @@ class ProjectComponent extends React.Component {
                         style={{
                             //  proportions for icon inherited from scss
                             // to use for every company icon
-                            background: 'url('+this.props.data.icon+')'
+                            background: 'url(' + d.icon + ')'
                         }}>
                     </div>
 
                     <div className='name'>
-                        {this.props.data.name}
+                        {d.name}
                     </div>
 
                     <div className='description'>
-                        {this.props.data.description}
+                        {d.description}
                     </div>
+
 
                 </div>
 
@@ -55,11 +60,11 @@ class ProjectComponent extends React.Component {
                 </div>
 
                 <div className='infoA fBlack' >
-                    <div>{this.props.data.infoA[0]}</div>
-                    <div>{this.props.data.infoA[1]}</div>
-                    <div>{this.props.data.infoA[2]}</div>
-                    <div>{this.props.data.infoA[3]}</div>
-                    <div onClick={this.onExternalLinkClick.bind(this)}>{this.props.data.infoA[4]}<i /></div>
+                    <div>{d.infoA[0]}</div>
+                    <div>{d.infoA[1]}</div>
+                    <div>{d.infoA[2]}</div>
+                    <div>{d.infoA[3]}</div>
+                    <div onClick={this.onExternalLinkClick.bind(this)}>{d.infoA[4]}<i /></div>
                 </div>
 
 

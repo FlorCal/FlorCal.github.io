@@ -1,11 +1,17 @@
 .ProjectComponent {
     display: grid;
-    // border: 1px solid red;
     grid-template-columns: 520px 125px 1fr;
     grid-template-rows: 120px 260px;
     grid-template-areas:
     'desktop title title'
     'desktop infoQ infoA';
+
+    &.right {
+        grid-template-columns: 50px 125px 1fr 520px 30px;
+        grid-template-areas:
+        '. title title desktop .'
+        '. infoQ infoA desktop .';
+    }
 
     .desktop {
         grid-area: desktop;

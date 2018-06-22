@@ -37,7 +37,8 @@ var constants = {
             screens: [gridmanScreen],
             icon: gridmanIcon,
             description:'CSS Grid inspector for Chrome. The only one CSS-grid highlighter that is lightning Fast!  I’m working on it as Developer.',
-            infoA:['Front end Web Developer','React, SVG, CSS Grid', 2018, 'San Jose, CA', 'https://goo.gl/kuP9iR']
+            infoA:['Front end Web Developer','React, SVG, CSS Grid', 2018, 'San Jose, CA', 'https://goo.gl/kuP9iR'],
+            right: true
         }
     ]
 
