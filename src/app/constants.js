@@ -1,6 +1,8 @@
 // assets
 import gridmanScreen from './img/projects/gridman-screen.jpg'
 import gridmanIcon from './img/projects/gridman-icon.png'
+import florcalderonScreen from './img/projects/florcalderon-screen.png'
+import florcalderonIcon from './img/projects/florcalderon-icon.svg'
 
 
 var constants = {
@@ -37,7 +39,14 @@ var constants = {
             screens: [gridmanScreen],
             icon: gridmanIcon,
             description:'CSS Grid inspector for Chrome. The only one CSS-grid highlighter that is lightning Fast!  I’m working on it as Developer.',
-            infoA:['Front end Web Developer','React, SVG, CSS Grid', 2018, 'San Jose, CA', 'https://goo.gl/kuP9iR'],
+            infoA:['Front End Web Engineer','React, D3 , SVG, CSS Grid', 2018, 'San Jose, CA', 'https://goo.gl/kuP9iR'],
+        },
+        {
+            name: 'florcalderon.com ',
+            screens: [florcalderonScreen],
+            icon: florcalderonIcon,
+            description:'My personal profile page. Starting from ideations, continued with design, layout architecture, full development & support.',
+            infoA:['Front End Engineer & Designer','React, SVG, Sass, Sketch', 2018, 'San Jose, CA', 'https://florcalderon.com'],
             right: true
         }
     ]

@@ -5,6 +5,7 @@
     grid-template-areas:
     'desktop title title'
     'desktop infoQ infoA';
+    margin: 50px 0 70px;
 
     &.right {
         grid-template-columns: 50px 125px 1fr 520px 30px;
