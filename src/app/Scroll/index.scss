@@ -1,0 +1,10 @@
+.ScrollComponent {
+    height: 46px;
+    width: 55px;
+    background: url('./app/img/scroll-ribbon.svg');
+    background-size: 100%;
+    left: calc(50vw + 501px);
+    top: calc(100vh - 150px);
+    position: fixed;
+
+}
