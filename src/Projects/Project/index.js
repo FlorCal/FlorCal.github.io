@@ -16,6 +16,7 @@ class ProjectComponent extends React.Component {
         let d = this.props.data
 
         return (
+            // checks if project should flip to right design
             <div className={'ProjectComponent' +
                 (d.right ? ' right' : '')
             }>

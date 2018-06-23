@@ -12,7 +12,7 @@ class ProjectsComponent extends React.Component {
         return (
             <div className='ProjectsComponent'>
                 <Ribbon title='Projects'/>
-                
+                {'/* iterating through each project */'}
                 {constants.projects.map((project, i)=>(
                     <Project
                         key={i}
