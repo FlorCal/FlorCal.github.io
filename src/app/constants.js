@@ -5,6 +5,9 @@ import florcalderonScreen from './img/projects/florcalderon-screen.png'
 import florcalderonIcon from './img/projects/florcalderon-icon.svg'
 import jammmingScreen from './img/projects/jammming-screen.png'
 import jammmingIcon from './img/projects/jammming-icon.png'
+import gymapScreen1 from './img/projects/gymap-screen1.jpg'
+import gymapScreen2 from './img/projects/gymap-screen2.jpg'
+import gymapIcon from './img/projects/gymap-icon.svg'
 
 var constants = {
     urls: {
@@ -39,17 +42,17 @@ var constants = {
             name: 'Gridman',
             screens: [gridmanScreen],
             icon: gridmanIcon,
-            description:'CSS Grid inspector for Chrome. The only one CSS-grid highlighter that is lightning Fast!  I’m working on it as Developer.',
-            infoA:['Front End Web Engineer','React, D3 , SVG, CSS Grid', 2018, 'San Jose, CA', 'https://goo.gl/kuP9iR'],
+            description: 'CSS Grid inspector for Chrome. The only one CSS-grid highlighter that is lightning Fast!  I’m working on it as Developer.',
+            infoA: ['Front End Web Engineer','React, D3 , SVG, CSS Grid', 2018, 'San Jose, CA', 'https://goo.gl/kuP9iR'],
         },
         {
             name: 'florcalderon.com ',
             screens: [florcalderonScreen],
             icon: florcalderonIcon,
-            description:'My personal profile page. Starting from ideations, continued with design, layout architecture, full development & support.',
-            infoA:['Front End Engineer & Designer','React, SVG, Sass, Sketch', 2018, 'San Jose, CA', 'https://florcalderon.com'],
-            right: true
-            // instruction this project should flip to right design
+            description: 'My personal profile page. Starting from ideations, continued with design, layout architecture, full development & support.',
+            infoA: ['Front End Engineer & Designer','React, SVG, Sass, Sketch', 2018, 'San Jose, CA', 'https://florcalderon.com'],
+            right: true  // instruction this project should flip to right design
+
         },
         {
             name: 'Jammming Project',
@@ -58,6 +61,15 @@ var constants = {
             description:`Spotify playlist manager that i've build during Pro Intense course at Codecademy.
             It involved work with Spotify APIs, Spotify Authorization, Deployment & Design`,
             infoA:['Full Stack Engineer','React, Node, Express, APIs, CSS3', 2017, 'San Jose, CA', 'https://jamm_ming.surge.sh'],
+        },
+        {
+            name: 'Gymap',
+            screens: [gymapScreen1, gymapScreen2],
+            icon: gymapIcon,
+            description: 'I was doing Qutomated Quality testing for Android & iOS platforms across mobile and tablet devices.',
+            infoA: ['QA Engineer','JavaScript, Selenium, Xcode', 2016, 'San Jose, CA', 'https://gymap.me'],
+            mobile: true,
+            right: true
         },
     ]
 
