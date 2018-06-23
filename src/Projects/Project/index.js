@@ -3,7 +3,7 @@ import React from 'react'
 
 // assets
 import desktop from '../../app/img/desktop.svg'
-
+import phone from '../../app/img/phone.svg'
 
 class ProjectComponent extends React.Component {
 
@@ -12,24 +12,38 @@ class ProjectComponent extends React.Component {
         win.focus();
     }
 
+    plotDevice() {
+        let out = []
+
+        if (this.props.data.mobile) {
+            out.push(<img src={phone} className='mobile1' key='mobile1'/>)
+            out.push(<img src={phone} className='mobile2' key='mobile2'/>)
+        } else {
+            out.push(<img src={desktop} className='desktop' key='desktop'/>)
+            out.push(<div className='screen' key='screen'
+                style={{
+                    //  proportions for screen inherited from scss
+                    // to use for every desktop screen
+                    background: 'url(' + this.props.data.screens[0] + ')'
+                }}>
+            </div>)
+        }
+
+        return out
+    }
+
     render() {
         let d = this.props.data
+
 
         return (
             // checks if project should flip to right design
             <div className={'ProjectComponent' +
-                (d.right ? ' right' : '')
+                (d.right ? ' right' : '') +
+                (d.mobile ? ' mobile' : '')
             }>
 
-                <img src={desktop} className='desktop' />
-
-                <div className='screen'
-                    style={{
-                        //  proportions for screen inherited from scss
-                        // to use for every desktop screen
-                        background: 'url(' + d.screens[0] + ')'
-                    }}>
-                </div>
+                {this.plotDevice()}
 
                 <div className='company'>
 

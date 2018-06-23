@@ -14,6 +14,29 @@
         '. infoQ infoA desktop .';
     }
 
+    &.mobile {
+        grid-template-columns: 260px 260px 125px 1fr;
+        grid-template-areas:
+        'mobile1 mobile2 title title'
+        'mobile1 mobile2 infoQ infoA';
+
+        .mobile1 {
+            grid-area: mobile1;
+            justify-self: right;
+        }
+
+        .mobile2 {
+            grid-area: mobile2;
+        }
+
+        &.right {
+            grid-template-columns: 50px 125px 1fr 260px 260px 30px;
+            grid-template-areas:
+            '. title title mobile1 mobile2 .'
+            '. infoQ infoA mobile1 mobile2 .';
+        }
+    }
+
     .desktop {
         grid-area: desktop;
         align-self: center;
