@@ -3,7 +3,8 @@ import gridmanScreen from './img/projects/gridman-screen.jpg'
 import gridmanIcon from './img/projects/gridman-icon.png'
 import florcalderonScreen from './img/projects/florcalderon-screen.png'
 import florcalderonIcon from './img/projects/florcalderon-icon.svg'
-
+import jammmingScreen from './img/projects/jammming-screen.png'
+import jammmingIcon from './img/projects/jammming-icon.png'
 
 var constants = {
     urls: {
@@ -48,7 +49,16 @@ var constants = {
             description:'My personal profile page. Starting from ideations, continued with design, layout architecture, full development & support.',
             infoA:['Front End Engineer & Designer','React, SVG, Sass, Sketch', 2018, 'San Jose, CA', 'https://florcalderon.com'],
             right: true
-        }
+            // instruction this project should flip to right design
+        },
+        {
+            name: 'Jammming Project',
+            screens: [jammmingScreen],
+            icon: jammmingIcon,
+            description:`Spotify playlist manager that i've build during Pro Intense course at Codecademy.
+            It involved work with Spotify APIs, Spotify Authorization, Deployment & Design`,
+            infoA:['Full Stack Engineer','React, Node, Express, APIs, CSS3', 2017, 'San Jose, CA', 'https://jamm_ming.surge.sh'],
+        },
     ]
 
 }
