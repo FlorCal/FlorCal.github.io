@@ -67,7 +67,7 @@ var constants = {
             screens: [gymapScreen1, gymapScreen2],
             icon: gymapIcon,
             description: 'I was doing Qutomated Quality testing for Android & iOS platforms across mobile and tablet devices.',
-            infoA: ['QA Engineer','JavaScript, Selenium, Xcode', 2016, 'San Jose, CA', 'https://gymap.me'],
+            infoA: ['QA Engineer','JavaScript, Selenium, Xcode', 2016, 'San Jose, CA', 'http://gymap.me'],
             mobile: true,
             right: true
         },

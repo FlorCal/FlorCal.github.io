@@ -29,13 +29,29 @@
             grid-area: mobile2;
         }
 
+        .screen1,
+        .screen2 {
+            grid-area: mobile1;
+            width: 160px;
+            height: 340px;
+            justify-self: end;
+            margin: 20px 22px;
+        }
+
+        .screen2 {
+            grid-area: mobile2;
+            justify-self: auto;
+            margin: 20px 12px;
+        }
+
         &.right {
             grid-template-columns: 50px 125px 1fr 260px 260px 30px;
             grid-template-areas:
             '. title title mobile1 mobile2 .'
             '. infoQ infoA mobile1 mobile2 .';
         }
-    }
+
+    } // &.mobile
 
     .desktop {
         grid-area: desktop;

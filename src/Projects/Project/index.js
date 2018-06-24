@@ -16,7 +16,20 @@ class ProjectComponent extends React.Component {
         let out = []
 
         if (this.props.data.mobile) {
+            out.push(<div className='screen1' key='screen1'
+                style={{
+                    background: 'url(' + this.props.data.screens[0] + ')',
+                    backgroundSize: '100%'
+                }}>
+            </div>)
+            out.push(<div className='screen2' key='screen2'
+                style={{
+                    background: 'url(' + this.props.data.screens[1] + ')',
+                    backgroundSize: '100%'
+                }}>
+            </div>)
             out.push(<img src={phone} className='mobile1' key='mobile1'/>)
+
             out.push(<img src={phone} className='mobile2' key='mobile2'/>)
         } else {
             out.push(<img src={desktop} className='desktop' key='desktop'/>)
