@@ -8,6 +8,9 @@ import jammmingIcon from './img/projects/jammming-icon.png'
 import gymapScreen1 from './img/projects/gymap-screen1.jpg'
 import gymapScreen2 from './img/projects/gymap-screen2.jpg'
 import gymapIcon from './img/projects/gymap-icon.svg'
+import tallyScreen1 from './img/projects/tally-screen1.jpg'
+import tallygoIcon from './img/projects/tallygo-icon.png'
+import tallyScreen2 from './img/projects/tally-screen2.jpg'
 
 var constants = {
     urls: {
@@ -26,7 +29,7 @@ var constants = {
             ['React', 7.1],
             ['jQuery', 6.2],
             ['D3 / SVG', 4.5],
-            ['Node / Express', 3.9]
+            ['Node / Express', 3.9],
         ],
         group2: [
             ['HTML5', 9.3],
@@ -63,6 +66,14 @@ var constants = {
             infoA:['Full Stack Engineer','React, Node, Express, APIs, CSS3', 2017, 'San Jose, CA', 'https://jamm_ming.surge.sh'],
         },
         {
+            name: 'TallyGo',
+            screens: [tallyScreen1, tallyScreen2],
+            icon: tallygoIcon,
+            description: 'Simple count up project that I fully build myself. Started from market research, ideations, sketching, design, development and testing on phones and tablets.',
+            infoA: ['Mobile Web Engineer','jQuery, Selenium, Xcode', 2016, 'San Jose, CA', 'https://www.facebook.com/tallygoapp'],
+            mobile: true,
+        },
+        {
             name: 'Gymap',
             screens: [gymapScreen1, gymapScreen2],
             icon: gymapIcon,
@@ -71,6 +82,7 @@ var constants = {
             mobile: true,
             right: true
         },
+
     ]
 
 }
