@@ -9,8 +9,12 @@ import gymapScreen1 from './img/projects/gymap-screen1.jpg'
 import gymapScreen2 from './img/projects/gymap-screen2.jpg'
 import gymapIcon from './img/projects/gymap-icon.svg'
 import tallyScreen1 from './img/projects/tally-screen1.jpg'
-import tallygoIcon from './img/projects/tallygo-icon.png'
 import tallyScreen2 from './img/projects/tally-screen2.jpg'
+import tallygoIcon from './img/projects/tallygo-icon.png'
+import  steplerScreen1 from './img/projects/stepler-screen1.jpg'
+import  steplerScreen2 from './img/projects/stepler-screen2.jpg'
+import  steplerIcon from './img/projects/stepler-icon.jpg'
+
 
 var constants = {
     urls: {
@@ -70,8 +74,9 @@ var constants = {
             screens: [tallyScreen1, tallyScreen2],
             icon: tallygoIcon,
             description: 'Simple count up project that I fully build myself. Started from market research, ideations, sketching, design, development and testing on phones and tablets.',
-            infoA: ['Mobile Web Engineer','jQuery, Selenium, Xcode', 2016, 'San Jose, CA', 'https://www.facebook.com/tallygoapp'],
+            infoA: ['Mobile Web Engineer','jQuery, Selenium, Xcode, Sketch', 2016, 'Santa Clara, CA', 'https://www.facebook.com/tallygoapp'],
             mobile: true,
+            right: true
         },
         {
             name: 'Gymap',
@@ -80,9 +85,16 @@ var constants = {
             description: 'I was doing Qutomated Quality testing for Android & iOS platforms across mobile and tablet devices.',
             infoA: ['QA Engineer','JavaScript, Selenium, Xcode', 2016, 'San Jose, CA', 'http://gymap.me'],
             mobile: true,
+        },
+        {
+            name: 'Stepler',
+            screens: [steplerScreen1, steplerScreen2],
+            icon: steplerIcon,
+            description: 'I performed discovery testing and focused on testing Spanish voice recognition feature on Android & iOS platforms.',
+            infoA: ['QA Engineer','JavaScript, Xcode', 2015, 'San jose, CA',],
+            mobile: true,
             right: true
         },
-
     ]
 
 }
