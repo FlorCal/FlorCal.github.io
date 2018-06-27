@@ -8,6 +8,7 @@ import './index.scss'
 import Header from './Header'
 import Skills from './Skills'
 import Projects from './Projects'
+import Contact from './Contact'
 import Scroll from './app/Scroll'
 import Footer from './Footer'
 
@@ -20,6 +21,7 @@ class Container extends React.Component {
                     <Header />
                     <Skills />
                     <Projects />
+                    <Contact />
                     <Scroll />
                 </div>
                 <div className='footer'>

@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/FlorCal/FlorCal.github.io#readme",
   "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
     "react": "^16.4.0",
     "react-dom": "^16.4.0"
   },

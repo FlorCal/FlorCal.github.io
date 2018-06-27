@@ -1,5 +1,5 @@
 // libraries
-import React from 'react';
+import React from 'react'
 
 //assets
 import constants from '../app/constants'

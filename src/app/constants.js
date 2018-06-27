@@ -82,7 +82,7 @@ var constants = {
             name: 'Gymap',
             screens: [gymapScreen1, gymapScreen2],
             icon: gymapIcon,
-            description: 'I was doing Qutomated Quality testing for Android & iOS platforms across mobile and tablet devices.',
+            description: 'I was doing Automated Quality testing for Android & iOS platforms across mobile and tablet devices.',
             infoA: ['QA Engineer','JavaScript, Selenium, Xcode', 2016, 'San Jose, CA', 'http://gymap.me'],
             mobile: true,
         },
@@ -91,7 +91,7 @@ var constants = {
             screens: [steplerScreen1, steplerScreen2],
             icon: steplerIcon,
             description: 'I performed discovery testing and focused on testing Spanish voice recognition feature on Android & iOS platforms.',
-            infoA: ['QA Engineer','JavaScript, Xcode', 2015, 'San jose, CA',],
+            infoA: ['QA Engineer','JavaScript, Selenium IDE, Xcode', 2015, 'San jose, CA',],
             mobile: true,
             right: true
         },

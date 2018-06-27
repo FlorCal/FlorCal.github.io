@@ -1,0 +1,17 @@
+.ContactComponent {
+    display: grid;
+    grid-template-columns: 570px 1fr 145px;
+    grid-template-rows: 130px 440px;
+    grid-template-areas:
+    'ribbon . .'
+    'map form .';
+
+    .map {
+        grid-area: map;
+    }
+
+    .form {
+        grid-area: form;
+
+    }
+}
