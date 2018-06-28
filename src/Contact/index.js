@@ -9,7 +9,10 @@ class ContactComponent extends React.Component {
         return (
             <div className='ContactComponent'>
                 <Ribbon title='Contact'/>
-                <div className='map'>Google Map</div>
+                <div className='map'>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d806251.2309711041!2d-122.98094768383038!3d37.87388584462007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808583a3a688d7b5%3A0x8c891b8457461fa9!2sSan+Francisco+Bay+Area%2C+CA!5e0!3m2!1sen!2sus!4v1530218525806" allowFullScreen>
+                    </iframe>
+                </div>
 
                 <form className='form' action="https://formspree.io/calderonflor82@gmail.com"
                     method="POST">
