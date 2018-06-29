@@ -20,8 +20,8 @@ class HeaderComponent extends React.Component {
             <div className='HeaderComponent'>
                 <div className="menu">
                     <a className='active'>Skills</a>
-                    <a>Projects</a>
-                    <a>Contact</a>
+                    <a href='#project'>Projects</a>
+                    <a href='#contact'>Contact</a>
                 </div>
                 <div className="portrait">
                     <img src={portrait} />

@@ -10,7 +10,7 @@ import constants from '../app/constants'
 class ProjectsComponent extends React.Component {
     render() {
         return (
-            <div className='ProjectsComponent'>
+            <div id='project' className='ProjectsComponent'>
                 <Ribbon title='Projects'/>
 
                 {constants.projects.map((project, i)=>(

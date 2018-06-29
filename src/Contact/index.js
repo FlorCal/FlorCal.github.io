@@ -16,7 +16,7 @@ class ContactComponent extends React.Component {
     render() {
 
         return (
-            <div className='ContactComponent'>
+            <div id='contact' className='ContactComponent'>
                 <Ribbon title='Contact'/>
                 <div className='map'>
                     <GoogleMapReact
