@@ -84,7 +84,10 @@ class ProjectComponent extends React.Component {
                     <div>Technologies Used</div>
                     <div>Year of Work</div>
                     <div>Location</div>
-                    <div>Url</div>
+                    {d.infoA[4] ?
+                        <div>Url</div>
+                        : null}
+
                 </div>
 
                 <div className='infoA fBlack' >
@@ -92,7 +95,10 @@ class ProjectComponent extends React.Component {
                     <div>{d.infoA[1]}</div>
                     <div>{d.infoA[2]}</div>
                     <div>{d.infoA[3]}</div>
-                    <div onClick={this.onExternalLinkClick.bind(this)}>{d.infoA[4]}<i /></div>
+                    {d.infoA[4] ?
+                        <div onClick={this.onExternalLinkClick.bind(this)}>{d.infoA[4]}<i /></div>
+                        : null}
+
                 </div>
 
 

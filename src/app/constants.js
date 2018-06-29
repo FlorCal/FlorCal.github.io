@@ -91,7 +91,7 @@ var constants = {
             screens: [steplerScreen1, steplerScreen2],
             icon: steplerIcon,
             description: 'I performed discovery testing and focused on testing Spanish voice recognition feature on Android & iOS platforms.',
-            infoA: ['QA Engineer','JavaScript, Selenium IDE, Xcode', 2015, 'San jose, CA',],
+            infoA: ['QA Engineer','JavaScript, Selenium IDE, Xcode', 2015, 'San jose, CA'],
             mobile: true,
             right: true
         },

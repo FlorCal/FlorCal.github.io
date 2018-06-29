@@ -6,16 +6,24 @@
     'ribbon . .'
     'map form .';
 
+
+
     .map {
         grid-area: map;
+        height: 360px;
+        width: 465px;
+        margin-left: 80px;
+        border: 1px solid $cBrown;
+        border-radius: 4px;
+        overflow: hidden;
 
-        iframe {
-            height: 360px;
-            width: 465px;
-            margin-left: 80px;
-            border: 1px solid $cBrown;
-            border-radius: 4px;
-      }
+        .PinComponent {
+            height: 50px;
+            width: 30px;
+            transform: translate(-50%, -90%);
+            background: url('./app/img/pin.svg');
+            background-size: 100%;
+        }
     }
 
     .form {
