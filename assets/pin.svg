@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="47px" viewBox="0 0 28 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M2.23122612,17.489504 C0.83604077,15.6445654 0,13.2929142 0,10.7317073 C0,4.80474903 4.4771525,0 10,0 C15.5228475,0 20,4.80474903 20,10.7317073 C20,13.2929142 19.1639592,15.6445654 17.7687739,17.489504 L10,40 L2.23122612,17.489504 Z" id="path-1"></path>
+        <filter x="-35.0%" y="-12.5%" width="170.0%" height="135.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-564.000000, -3803.000000)">
+            <g id="Group-4" transform="translate(256.000000, 3576.000000)">
+                <g id="Group-2" transform="translate(312.000000, 229.000000)">
+                    <g id="Combined-Shape">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#4D312D" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <ellipse id="Oval-3" fill="#FFFFFF" cx="10" cy="9.75609756" rx="5.45454545" ry="5.85365854"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
