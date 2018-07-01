@@ -48,6 +48,12 @@ body {
     -moz-osx-font-smoothing: grayscale;
     color: $cBrown;
 
+    input,
+    textarea {
+        outline: none;
+        resize: none;
+    }
+
     .fBlack {
         font-family: fBlack;
     }

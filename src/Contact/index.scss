@@ -58,17 +58,10 @@
         input {
             grid-area: box;
             margin-bottom: 15px;
+            font-size: $sFont;
 
             &[type='email'] {
                 height: 30px;
-                width: 300px;
-                border-radius: 4px;
-                border: 1px solid $cBrown;
-            }
-
-            &[type='text'] {
-                grid-area: box;
-                height: 110px;
                 width: 300px;
                 border-radius: 4px;
                 border: 1px solid $cBrown;
@@ -86,6 +79,14 @@
             }
         }
 
+        textarea {
+            grid-area: box;
+            height: 110px;
+            width: 300px;
+            border-radius: 4px;
+            border: 1px solid $cBrown;
+            font-size: $sFont;
+        }
 
     }// form
 
