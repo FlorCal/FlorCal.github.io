@@ -121,7 +121,7 @@
         div {
             padding: 5px 0;
 
-            &:last-child {
+            &.url {
                 cursor: pointer;
                 color: $cBlue;
                 margin-top: -2px;
@@ -135,6 +135,10 @@
                     margin: 0 0 -3px 5px;
                 }
             }
+
         }
+
+
+
     }
 }//ProjectComponent

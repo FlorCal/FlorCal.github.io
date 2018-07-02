@@ -40,7 +40,7 @@ var constants = {
             ['CSS3 / Sass', 8.1],
             ['Git / GitHub', 5.2],
             ['Scrum / Trello', 9.1],
-            ['Sketch / Design', 6.5]
+            ['Sketch / Design', 6.5],
         ]
     },
 

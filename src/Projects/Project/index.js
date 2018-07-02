@@ -96,7 +96,7 @@ class ProjectComponent extends React.Component {
                     <div>{d.infoA[2]}</div>
                     <div>{d.infoA[3]}</div>
                     {d.infoA[4] ?
-                        <div onClick={this.onExternalLinkClick.bind(this)}>{d.infoA[4]}<i /></div>
+                        <div className='url' onClick={this.onExternalLinkClick.bind(this)}>{d.infoA[4]}<i /></div>
                         : null}
 
                 </div>
