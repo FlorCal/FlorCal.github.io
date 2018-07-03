@@ -1,4 +1,5 @@
 import React from 'react'
+import {Motion, spring} from 'react-motion'
 
 class SkillComponent extends React.Component {
 
@@ -36,16 +37,25 @@ class SkillComponent extends React.Component {
                     </svg>
 
                     <div className="grey"></div>
-                    <div className="fill"
-                        style={{
-                            width: 210 * this.props.points / 10
-                        }}></div>
-                    {/* calculation for fill of circles */}
+
+                    <Motion defaultStyle={{x: 0}} style={{x: spring(1)}}>
+                        { value =>
+                            <div className="fill"
+                                style={{
+                                    width: (210 * this.props.points / 10) * value.x
+                                }}></div>
+                        }
+                    </Motion>
+
                 </div>
 
-                <div className='points'>
-                    {this.props.points}
-                </div>
+                <Motion defaultStyle={{x: 0}} style={{x: spring(1)}}>
+                    { value =>
+                        <div className='points'>
+                            {(this.props.points * value.x).toFixed(1)}
+                        </div>
+                    }
+                </Motion>
             </div>
         );
     }

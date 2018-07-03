@@ -30,7 +30,7 @@ var constants = {
     skills: {
         group1: [
             ['JavaScript / ES6', 7.5],
-            ['React', 7.1],
+            ['React / Motion', 7.1],
             ['jQuery', 6.2],
             ['D3 / SVG', 4.5],
             ['Node / Express', 3.9],
