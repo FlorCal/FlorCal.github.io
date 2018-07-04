@@ -47,7 +47,7 @@ class ContactComponent extends React.Component {
                         </div>
                     </div>
 
-                    <div>
+                    <div className='inputs'>
                         <input type="email" name="_replyto"/>
                         <textarea name="messagebox"/>
                         <input type="submit" value="Send Message"/>

@@ -35,7 +35,6 @@
         'header header'
         'label box';
 
-
         span {
             grid-area: header;
             font-family: fBlack;
@@ -45,48 +44,64 @@
 
         .label {
             grid-area: label;
+            text-align: right;
+            padding-right: 5px;
+
 
             .email {
                 margin-top: 8px;
             }
 
             .message {
-                margin-top: 34px;
+                margin-top: 25px;
             }
         }
 
-        input {
+        .inputs {
             grid-area: box;
-            margin-bottom: 15px;
-            font-size: $sFont;
 
-            &[type='email'] {
+            input {
+                grid-area: box;
+                font-size: $sFont;
                 height: 30px;
-                width: 300px;
+
+
+                &[type='email'] {
+                    border-radius: 4px;
+                    border: 1px solid $cBrown;
+                    padding: 0;
+                    box-sizing: content-box;
+                    width: 100%;
+                }
+
+                &[type='submit'] {
+                    border-radius: 4px;
+                    background-color: $cBrown;
+                    color: $cWhite;
+                    font-size: $sFont;
+                    cursor: pointer;
+                    padding: 0;
+                    box-sizing: content-box;
+                    width: 100%;
+                    margin-top: 8px;
+                }
+            }
+
+            textarea {
+                height: 110px;
                 border-radius: 4px;
                 border: 1px solid $cBrown;
-            }
-
-            &[type='submit'] {
-                grid-area: box;
-                height: 30px;
-                width: 300px;
-                border-radius: 4px;
-                background-color: $cBrown;
-                color: $cWhite;
                 font-size: $sFont;
-                cursor: pointer;
+                padding: 0;
+                box-sizing: content-box;
+                width: 100%;
+                margin-top: 10px;
             }
         }
 
-        textarea {
-            grid-area: box;
-            height: 110px;
-            width: 300px;
-            border-radius: 4px;
-            border: 1px solid $cBrown;
-            font-size: $sFont;
-        }
+
+
+
 
     }// form
 

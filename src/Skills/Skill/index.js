@@ -52,7 +52,7 @@ class SkillComponent extends React.Component {
                 <Motion defaultStyle={{x: 0}} style={{x: spring(1)}}>
                     { value =>
                         <div className='points'>
-                            {(this.props.points * value.x).toFixed(1)}
+                            {(this.props.points * value.x).toFixed(1 )}
                         </div>
                     }
                 </Motion>
