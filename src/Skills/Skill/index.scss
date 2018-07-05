@@ -8,6 +8,7 @@
     grid-template-areas: 'title rating points';
     align-items: center;
     font-family: fBlack;
+    margin-right: 20px;
 
     .title {
         grid-area: title;

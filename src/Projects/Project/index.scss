@@ -45,7 +45,7 @@
         }
 
         &.right {
-            grid-template-columns: 50px 125px 1fr 260px 260px 30px;
+            grid-template-columns: 60px 125px 1fr 260px 260px 30px;
             grid-template-areas:
             '. title title mobile1 mobile2 .'
             '. infoQ infoA mobile1 mobile2 .';
@@ -84,6 +84,7 @@
             height: 65px;
             width: 65px;
             margin-top: 20px;
+            margin-left: 10px;
             background-size: 100% 100%;
         }
 
