@@ -12,7 +12,7 @@ class SkillsComponent extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            showYears: true 
+            showYears: false
         };
     }
     render() {
@@ -25,6 +25,7 @@ class SkillsComponent extends React.Component {
                             key={i}
                             title={skill[0]}
                             points={skill[1]}
+                            years={skill[2]}
                             showYears={this.state.showYears}
                         />
                     ))}
@@ -36,6 +37,7 @@ class SkillsComponent extends React.Component {
                             key={i}
                             title={skill[0]}
                             points={skill[1]}
+                            years={skill[2]}
                             showYears={this.state.showYears}
                         />
                     ))}

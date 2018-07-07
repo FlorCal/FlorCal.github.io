@@ -17,13 +17,19 @@
 
     .years {
         grid-area: rating;
-        justify-self: center;
-        position: relative;
-        height: 16px;
-        width: 210px;
 
         div {
-            
+            border: 1px solid $cBrown;
+            display: initial;
+            padding: 1px 10px;
+            margin-left: 10px;
+            border-radius: 4px;
+            font-size: 12px;
+
+            &.active {
+                background-color: $cBrown;
+                color: $cWhite;
+            }
         }
     }
 
@@ -53,7 +59,7 @@
         .fill {
             // width of progress bar is control programatically
             background: $cBrown;
-            color : white;
+            color : $cWhite;
         }
     }
 

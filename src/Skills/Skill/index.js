@@ -60,12 +60,14 @@ class SkillComponent extends React.Component {
     }
 
     plotYears() {
+        let arrYears = [2015, 2016, 2017, 2018]
         return (
             <div className='years'>
-                <div>2018</div>
-                <div>2017</div>
-                <div>2016</div>
-                <div>2015</div>
+                {arrYears.map((year, i) =>(
+                    <div key={i} className={
+                        this.props.years.indexOf(year) != -1 ? 'active' : ''
+                    }>{year}</div>
+                ))}
             </div>
         )
     }

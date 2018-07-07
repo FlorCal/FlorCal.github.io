@@ -29,18 +29,18 @@ var constants = {
 
     skills: {
         group1: [
-            ['JavaScript / ES6', 7.5],
-            ['React / Motion', 7.1],
-            ['jQuery', 6.2],
-            ['D3 / SVG', 4.5],
-            ['Node / Express', 3.9],
+            ['JavaScript / ES6', 7.5, [2016, 2017, 2018]],
+            ['React / Motion', 7.1, [2017, 2018]],
+            ['jQuery', 6.2, [2016, 2017, 2018]],
+            ['D3 / SVG', 4.5, [2018]],
+            ['Node / Express', 3.9, [2016, 2017]],
         ],
         group2: [
-            ['HTML5', 9.3],
-            ['CSS3 / Sass', 8.1],
-            ['Git / GitHub', 5.2],
-            ['Scrum / Trello', 9.1],
-            ['Sketch / Design', 6.5],
+            ['HTML5', 9.3, [2015, 2016, 2017, 2018]],
+            ['CSS3 / Sass', 8.1, [2015, 2016, 2017, 2018]],
+            ['Git / GitHub', 5.2, [2016, 2017, 2018]],
+            ['Scrum / Trello', 9.1, [2016, 2017, 2018]],
+            ['Sketch / Design', 6.5, [2016, 2017, 2018]],
         ]
     },
 
