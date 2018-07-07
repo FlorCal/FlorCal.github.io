@@ -3,7 +3,6 @@ import {Motion, spring} from 'react-motion'
 
 class SkillComponent extends React.Component {
 
-
     plotCircles() {
         let out = []
         let circleRadius = 8
@@ -20,6 +19,57 @@ class SkillComponent extends React.Component {
 
     }
 
+    plotRating() {
+        let out = []
+        out.push(
+            <div className='rating' key='rating'>
+
+                <svg>
+                    <defs>
+                        <clipPath id="clipping">
+                            {this.plotCircles()}
+                        </clipPath>
+                    </defs>
+                </svg>
+
+                <div className="grey"></div>
+
+                <Motion defaultStyle={{x: 0}} style={{x: spring(1)}}>
+                    { value =>
+                        <div className="fill"
+                            style={{
+                                width: (210 * this.props.points / 10) * value.x
+                            }}></div>
+                    }
+                </Motion>
+
+            </div>
+        )
+
+        out.push(
+            <Motion defaultStyle={{x: 0}} style={{x: spring(1)}} key='points'>
+                { value =>
+                    <div className='points'>
+                        {(this.props.points * value.x).toFixed(1 )}
+                    </div>
+                }
+            </Motion>
+        )
+
+        return out
+    }
+
+    plotYears() {
+        return (
+            <div className='years'>
+                <div>2018</div>
+                <div>2017</div>
+                <div>2016</div>
+                <div>2015</div>
+            </div>
+        )
+    }
+
     render() {
         return (
             <div className='SkillComponent'>
@@ -27,35 +77,12 @@ class SkillComponent extends React.Component {
                     {this.props.title}
                 </div>
 
-                <div className='rating'>
-                    <svg>
-                        <defs>
-                            <clipPath id="clipping">
-                                {this.plotCircles()}
-                            </clipPath>
-                        </defs>
-                    </svg>
+                {this.props.showYears ?
+                    this.plotYears()
+                    :
+                    this.plotRating()
+                }
 
-                    <div className="grey"></div>
-
-                    <Motion defaultStyle={{x: 0}} style={{x: spring(1)}}>
-                        { value =>
-                            <div className="fill"
-                                style={{
-                                    width: (210 * this.props.points / 10) * value.x
-                                }}></div>
-                        }
-                    </Motion>
-
-                </div>
-
-                <Motion defaultStyle={{x: 0}} style={{x: spring(1)}}>
-                    { value =>
-                        <div className='points'>
-                            {(this.props.points * value.x).toFixed(1 )}
-                        </div>
-                    }
-                </Motion>
             </div>
         );
     }

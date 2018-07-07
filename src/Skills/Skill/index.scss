@@ -15,6 +15,18 @@
         justify-self: right;
     }
 
+    .years {
+        grid-area: rating;
+        justify-self: center;
+        position: relative;
+        height: 16px;
+        width: 210px;
+
+        div {
+            
+        }
+    }
+
     .rating {
         grid-area: rating;
         justify-self: center;

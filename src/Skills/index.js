@@ -9,6 +9,12 @@ import Skill from './Skill'
 import constants from '../app/constants'
 
 class SkillsComponent extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            showYears: true 
+        };
+    }
     render() {
         return (
             <div className='SkillsComponent'>
@@ -18,7 +24,9 @@ class SkillsComponent extends React.Component {
                         <Skill
                             key={i}
                             title={skill[0]}
-                            points={skill[1]} />
+                            points={skill[1]}
+                            showYears={this.state.showYears}
+                        />
                     ))}
 
                 </div>
@@ -27,7 +35,9 @@ class SkillsComponent extends React.Component {
                         <Skill
                             key={i}
                             title={skill[0]}
-                            points={skill[1]} />
+                            points={skill[1]}
+                            showYears={this.state.showYears}
+                        />
                     ))}
 
                 </div>
