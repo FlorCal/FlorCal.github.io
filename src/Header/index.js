@@ -1,5 +1,6 @@
 // libraries
 import React from 'react'
+import request from 'superagent'
 
 // assets
 import portrait from '../app/img/portrait.jpg'
@@ -9,10 +10,27 @@ import constants from '../app/constants'
 
 
 class HeaderComponent extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            temperature : null
+        };
+    }
 
     onResumeClick() {
         var win = window.open(constants.urls.myResume, '_blank');
         win.focus();
+    }
+
+    UNSAFE_componentWillMount() {
+        request
+            .get('https://api.openweathermap.org/data/2.5/weather')
+            .query({ q: 'San Jose' })
+            .query({ APPID: '1d18fba40fda8ca3bdb3d0ec2b999209' })
+            .query({ units: 'imperial' })
+            .then(response => {
+                this.setState({temperature:', ' + Math.round(response.body.main.temp) + '℉'})
+            });
     }
 
     render() {
@@ -42,6 +60,7 @@ class HeaderComponent extends React.Component {
                     <p>
                         <span>Current Location: </span>
                         <span className='fBlack'>San Jose, CA</span>
+                        <span className='temp'>{this.state.temperature}</span>
                     </p>
                     <p>
                         <span>Work Authorization: </span>
