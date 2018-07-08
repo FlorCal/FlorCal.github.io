@@ -15,14 +15,26 @@ class SkillsComponent extends React.Component {
             showYears: false
         };
     }
+
+    onPointsClick() {
+        this.setState({showYears : false})
+    }
+
+    onYearsClick() {
+        this.setState({showYears : true})
+    }
+
     render() {
+        let years = this.state.showYears
         return (
             <div className='SkillsComponent'>
                 <Ribbon title='Skills'/>
 
                 <div className='links'>
-                    <a>Points</a>
-                    <a>Years</a>
+                    <a className={years ? '' : 'active'}
+                        onMouseEnter={this.onPointsClick.bind(this)}>Points</a>
+                    <a className={years ? 'active' : ''}
+                        onMouseEnter={this.onYearsClick.bind(this)}>Years</a>
                 </div>
 
                 <div className='group1'>
@@ -32,7 +44,7 @@ class SkillsComponent extends React.Component {
                             title={skill[0]}
                             points={skill[1]}
                             years={skill[2]}
-                            showYears={this.state.showYears}
+                            showYears={years}
                         />
                     ))}
 
@@ -44,7 +56,7 @@ class SkillsComponent extends React.Component {
                             title={skill[0]}
                             points={skill[1]}
                             years={skill[2]}
-                            showYears={this.state.showYears}
+                            showYears={years}
                         />
                     ))}
 

@@ -16,17 +16,18 @@
 
         a {
             color: darken($cBrown, 10%);
-            margin: 16px;
+            margin: 10px;
             padding: 0 10px;
             text-decoration: none;
             cursor: pointer;
 
-            &:hover {
+            &:hover,
+            &.active {
                 border-bottom: 1px solid $cBrown;
             }
 
-            &:last-child {
-                margin-right: 10px;
+            &:last-child  {
+                margin-right: 4px;
             }
         }
     }
