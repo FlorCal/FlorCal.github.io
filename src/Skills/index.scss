@@ -5,8 +5,31 @@
     grid-template-columns: 490px 1fr 125px;
     grid-template-rows: 130px min-content;
     grid-template-areas:
-    'Ribbon . .'
+    'Ribbon links .'
     'group1 group2 .';
+
+    .links {
+        grid-area: links;
+        font-size: 16px;
+        text-align: right;
+        align-self: center;
+
+        a {
+            color: darken($cBrown, 10%);
+            margin: 16px;
+            padding: 0 10px;
+            text-decoration: none;
+            cursor: pointer;
+
+            &:hover {
+                border-bottom: 1px solid $cBrown;
+            }
+
+            &:last-child {
+                margin-right: 10px;
+            }
+        }
+    }
 
     .group1 {
         grid-area: group1;

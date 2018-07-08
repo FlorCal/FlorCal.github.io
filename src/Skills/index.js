@@ -19,6 +19,12 @@ class SkillsComponent extends React.Component {
         return (
             <div className='SkillsComponent'>
                 <Ribbon title='Skills'/>
+
+                <div className='links'>
+                    <a>Points</a>
+                    <a>Years</a>
+                </div>
+
                 <div className='group1'>
                     {constants.skills.group1.map((skill, i) => (
                         <Skill
