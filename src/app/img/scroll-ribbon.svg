@@ -14,16 +14,16 @@
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Desktop-HD" transform="translate(-1222.000000, -1298.000000)">
             <g id="Group-8" transform="translate(1226.000000, 1300.000000)">
-                <polygon id="Triangle-2-Copy" fill="#2E2220" transform="translate(50.000000, 49.500000) scale(-1, 1) translate(-50.000000, -49.500000) " points="55 44 55 55 45 45.4841567"></polygon>
-                <g id="Rectangle-4-Copy" transform="translate(27.500000, 23.000000) scale(-1, 1) translate(-27.500000, -23.000000) ">
+                <polygon id="Triangle-2-Copy" fill="#BCBFC0" transform="translate(50.000000, 49.500000) scale(-1, 1) translate(-50.000000, -49.500000) " points="55 44 55 55 45 45.4841567"></polygon>
+                <g id="r" transform="translate(27.500000, 23.000000) scale(-1, 1) translate(-27.500000, -23.000000) ">
                     <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
-                    <use fill="#5D3C37" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <use fill="#EBEFF2" fill-rule="evenodd" xlink:href="#path-1"></use>
                 </g>
-                <g id="Group-2" transform="translate(19.000000, 15.000000)" stroke="#FFFFFF" stroke-linecap="round" stroke-width="2">
+                <g id="Group-2" transform="translate(19.000000, 15.000000)" stroke="#5D3C37" stroke-linecap="round" stroke-width="2">
                     <path d="M0.5,7.5 L11,0" id="Line-4"></path>
                     <path d="M11.5,7.5 L22,0" id="Line-4" transform="translate(16.500000, 4.000000) scale(-1, 1) translate(-16.500000, -4.000000) "></path>
                 </g>
-                <g id="Group-2" transform="translate(19.000000, 23.000000)" stroke="#FFFFFF" stroke-linecap="round" stroke-width="2">
+                <g id="Group-2" transform="translate(19.000000, 23.000000)" stroke="#5D3C37" stroke-linecap="round" stroke-width="2">
                     <path d="M0.5,7.5 L11,0" id="Line-4"></path>
                     <path d="M11.5,7.5 L22,0" id="Line-4" transform="translate(16.500000, 4.000000) scale(-1, 1) translate(-16.500000, -4.000000) "></path>
                 </g>
