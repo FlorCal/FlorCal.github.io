@@ -25,7 +25,7 @@ class HeaderComponent extends React.Component {
     UNSAFE_componentWillMount() {
         request
             .get('https://api.openweathermap.org/data/2.5/weather')
-            .query({ q: 'San Jose' })
+            .query({ id: 5392171 })
             .query({ APPID: '1d18fba40fda8ca3bdb3d0ec2b999209' })
             .query({ units: 'imperial' })
             .then(response => {
