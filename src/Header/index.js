@@ -1,7 +1,6 @@
 // libraries
 import React from 'react'
 import request from 'superagent'
-
 // assets
 import portrait from '../app/img/portrait.jpg'
 import flower from '../app/img/flower.svg'
@@ -17,6 +16,16 @@ class HeaderComponent extends React.Component {
         };
     }
 
+    onProjectClick() {
+        window.scrollBy({ top: 680, behavior: 'smooth'
+        });
+    }
+
+    onContactClick() {
+        window.scrollBy({ top: 3400, behavior: 'smooth'
+        });
+    }
+
     onResumeClick() {
         var win = window.open(constants.urls.myResume, '_blank');
         win.focus();
@@ -28,8 +37,13 @@ class HeaderComponent extends React.Component {
             .query({ id: 5392171 })
             .query({ APPID: '1d18fba40fda8ca3bdb3d0ec2b999209' })
             .query({ units: 'imperial' })
+
+            // .query({ units: 'Metric' })
+
             .then(response => {
                 this.setState({temperature:', ' + Math.round(response.body.main.temp) + '℉'})
+
+                // this.setState({temperature:', ' + Math.round(response.body.main.temp) + '°C'})
             });
     }
 
@@ -38,8 +52,10 @@ class HeaderComponent extends React.Component {
             <div className='HeaderComponent'>
                 <div className="menu">
                     <a className='active'>Skills</a>
-                    <a href='#project'>Projects</a>
-                    <a href='#contact'>Contact</a>
+                    <a onClick={this.onProjectClick.bind(this)}>
+                        Projects
+                    </a>
+                    <a onClick={this.onContactClick.bind(this)}>Contact</a>
                 </div>
                 <div className="portrait">
                     <img src={portrait} />
