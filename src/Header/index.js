@@ -33,17 +33,12 @@ class HeaderComponent extends React.Component {
 
     UNSAFE_componentWillMount() {
         request
-            .get('https://api.openweathermap.org/data/2.5/weather')
-            .query({ id: 5392171 })
-            .query({ APPID: '1d18fba40fda8ca3bdb3d0ec2b999209' })
-            .query({ units: 'imperial' })
-
-            // .query({ units: 'Metric' })
-
+            .get('https://api.openweathermap.org/data/2.5/weather') // API endpoint(address)
+            .query({ id: 5392171 })  // city id
+            .query({ APPID: '1d18fba40fda8ca3bdb3d0ec2b999209' }) // API key
+            .query({ units: 'imperial' }) // how we're receiving data
             .then(response => {
                 this.setState({temperature:', ' + Math.round(response.body.main.temp) + '℉'})
-
-                // this.setState({temperature:', ' + Math.round(response.body.main.temp) + '°C'})
             });
     }
 
