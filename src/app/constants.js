@@ -60,7 +60,6 @@ var constants = {
             icon: rangiboraIcon,
             description: 'Programmatic generator of accessible and pleasing sets of 4 color palettes that are WCAG2 compliant. Dynamic hue, saturation and lightness steps fine tune along with AAA or AA score selection.',
             infoA: ['Front End Engineer','React, Webpack, Sass, CSS Grid', 2018, 'San Jose, CA', 'http://www.rangibora.com/'],
-            right: true  // instruction this project should flip to right design
         },
         {
             name: 'florcalderon.com ',
