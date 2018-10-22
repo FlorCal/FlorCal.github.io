@@ -2,7 +2,7 @@
 import gridmanScreen from './img/projects/gridman-screen.jpg'
 import gridmanIcon from './img/projects/gridman-icon.png'
 import rangiboraScreen from './img/projects/rangibora-screen.jpg'
-import rangiboraIcon from './img/projects/rangibora-icon.png'
+import rangiboraIcon from './img/projects/rangibora-icon.svg'
 import florcalderonScreen from './img/projects/florcalderon-screen.png'
 import florcalderonIcon from './img/projects/florcalderon-icon.svg'
 import jammmingScreen from './img/projects/jammming-screen.png'
@@ -58,8 +58,8 @@ var constants = {
             name: 'Rangi Bora',
             screens: [rangiboraScreen],
             icon: rangiboraIcon,
-            description: '',
-            infoA: ['Front End Engineer','React, Webpack, Sass, CSS Grid', 2018, 'San Jose, CA', 'http://rangibora.com/'],
+            description: 'Programmatic generator of accessible and pleasing sets of 4 color palettes that are WCAG2 compliant. Dynamic hue, saturation and lightness steps fine tune along with AAA or AA score selection.',
+            infoA: ['Front End Engineer','React, Webpack, Sass, CSS Grid', 2018, 'San Jose, CA', 'http://www.rangibora.com/'],
             right: true  // instruction this project should flip to right design
         },
         {

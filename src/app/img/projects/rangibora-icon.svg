@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="65px" height="65px" viewBox="0 0 65 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M11.5,21 L18.5,13.5" id="Line" stroke="#4F5963" stroke-width="3" stroke-linecap="square"></path>
+        <path d="M46.5,21 L53.5,13.5" id="Line" stroke="#4F5963" stroke-width="3" stroke-linecap="square" transform="translate(50.000000, 17.000000) scale(-1, 1) translate(-50.000000, -17.000000) "></path>
+        <path d="M25,10.5 L39.5,10.5" id="Line" stroke="#4F5963" stroke-width="3" stroke-linecap="square" transform="translate(32.500000, 10.000000) scale(-1, 1) translate(-32.500000, -10.000000) "></path>
+        <path d="M8.5,57 L33,26" id="Line" stroke="#4F5963" stroke-width="3" stroke-linecap="square" transform="translate(20.500000, 41.500000) scale(-1, 1) translate(-20.500000, -41.500000) "></path>
+        <path d="M33,57 L57,26" id="Line" stroke="#4F5963" stroke-width="3" stroke-linecap="square"></path>
+        <path d="M33,57 L45,10.5" id="Line" stroke="#4F5963" stroke-width="3" stroke-linecap="square"></path>
+        <path d="M33,57 L21,10" id="Line" stroke="#4F5963" stroke-width="3" stroke-linecap="square"></path>
+        <circle id="Oval" stroke="#4F5963" stroke-width="3" fill="#FFFFFF" cx="21" cy="10" r="5"></circle>
+        <circle id="Oval-Copy" stroke="#4F5963" stroke-width="3" fill="#FFFFFF" cx="45" cy="10" r="5"></circle>
+        <circle id="Oval-Copy-2" stroke="#4F5963" stroke-width="3" fill="#FFFFFF" cx="57" cy="26" r="5"></circle>
+        <circle id="Oval-Copy-4" stroke="#4F5963" stroke-width="3" fill="#FFFFFF" cx="33" cy="57" r="5"></circle>
+        <circle id="Oval-Copy-3" stroke="#4F5963" stroke-width="3" fill="#FFFFFF" cx="8" cy="26" r="5"></circle>
+    </g>
+</svg>
