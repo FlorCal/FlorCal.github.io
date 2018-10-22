@@ -60,6 +60,7 @@ var constants = {
             icon: rangiboraIcon,
             description: 'Programmatic generator of accessible and pleasing sets of 4 color palettes that are WCAG2 compliant. Dynamic hue, saturation and lightness steps fine tune along with AAA or AA score selection.',
             infoA: ['Front End Engineer','React, Webpack, Sass, CSS Grid', 2018, 'San Jose, CA', 'http://www.rangibora.com/'],
+            right: true
         },
         {
             name: 'florcalderon.com ',
@@ -73,8 +74,7 @@ var constants = {
             name: 'Jammming Project',
             screens: [jammmingScreen],
             icon: jammmingIcon,
-            description:`Spotify playlist manager that i've build during Pro Intense course at Codecademy.
-            It involved work with Spotify APIs, Spotify Authorization, Deployment & Design`,
+            description:`Spotify playlist manager that involved working with Spotify APIs, Spotify Authorization, Deployment & Design`,
             infoA:['Full Stack Engineer','React, Node, Express, APIs, CSS3', 2017, 'San Jose, CA', 'https://jamm_ming.surge.sh'],
             right: true
         },
