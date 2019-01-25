@@ -13,9 +13,10 @@ import gymapIcon from './img/projects/gymap-icon.svg'
 import tallyScreen1 from './img/projects/tally-screen1.jpg'
 import tallyScreen2 from './img/projects/tally-screen2.jpg'
 import tallygoIcon from './img/projects/tallygo-icon.png'
-import  steplerScreen1 from './img/projects/stepler-screen1.jpg'
-import  steplerScreen2 from './img/projects/stepler-screen2.jpg'
-import  steplerIcon from './img/projects/stepler-icon.jpg'
+import steplerScreen1 from './img/projects/stepler-screen1.jpg'
+import steplerScreen2 from './img/projects/stepler-screen2.jpg'
+import steplerIcon from './img/projects/stepler-icon.jpg'
+import stealthmode2 from './img/projects/stealthmode2.png'
 
 
 var constants = {
@@ -47,6 +48,13 @@ var constants = {
     },
 
     projects: [
+        {
+            name: 'Traveller',
+            screens: [stealthmode2],
+            description: 'Travel product focused on scheduling',
+            infoA: ['Full Stack Engineer','Front End: React, Webpack, ES6, HTML, CSS/Sass                  Back End: MongoDB, Monk, Node JS, Express, Bcrypt', 2019, 'San Jose, CA'],
+            right: true
+        },
         {
             name: 'Gridman',
             screens: [gridmanScreen],
