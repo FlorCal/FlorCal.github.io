@@ -55,19 +55,19 @@ var constants = {
             infoA: ['Full Stack Engineer','Front End: React, Webpack, ES6, HTML, CSS/Sass, Back End: MongoDB, Monk, Node JS, Express, Bcrypt', 2019, 'San Jose, CA'],
         },
         {
-            name: 'Gridman',
-            screens: [gridmanScreen],
-            icon: gridmanIcon,
-            description: 'CSS Grid inspector for Chrome. The only one CSS-grid highlighter that is lightning Fast!  I’m working on it as Developer.',
-            infoA: ['Front End Web Engineer','React, D3 , SVG, CSS Grid', 2018, 'San Jose, CA', 'https://goo.gl/kuP9iR'],
-            right: true
-        },
-        {
             name: 'Rangi Bora',
             screens: [rangiboraScreen],
             icon: rangiboraIcon,
             description: 'Programmatic generator of accessible and pleasing sets of 4 color palettes that are WCAG2 compliant. Dynamic hue, saturation and lightness steps fine tune along with AAA or AA score selection.',
             infoA: ['Front End Engineer','React, Webpack, Sass, CSS Grid', 2018, 'San Jose, CA', 'http://www.rangibora.com/'],
+            right: true
+        },
+        {
+            name: 'Gridman',
+            screens: [gridmanScreen],
+            icon: gridmanIcon,
+            description: 'CSS Grid inspector for Chrome. The only one CSS-grid highlighter that is lightning Fast!  I’m working on it as Developer.',
+            infoA: ['Front End Web Engineer','React, D3 , SVG, CSS Grid', 2018, 'San Jose, CA', 'https://goo.gl/kuP9iR'],
         },
         {
             name: 'florcalderon.com ',
