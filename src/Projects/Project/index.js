@@ -47,7 +47,12 @@ class ProjectComponent extends React.Component {
 
     render() {
         let d = this.props.data
-
+        let technologies = () => {
+            if( Array.isArray(d.infoA[1]) ) {
+                return d.infoA[1].map( (v, i) => <div key={i}>{v}</div> )
+            }
+            return <div>{d.infoA[1]}</div>
+        }
 
         return (
             // checks if project should flip to right design
@@ -81,7 +86,7 @@ class ProjectComponent extends React.Component {
 
                 <div className='infoQ'>
                     <div>My Role</div>
-                    <div>Technologies Used</div>
+                    <div style={{height: Array.isArray(d.infoA[1]) ? d.infoA[1].length * 19 : null}}>Technologies Used</div>
                     <div>Year of Work</div>
                     <div>Location</div>
                     {d.infoA[4] ?
@@ -92,7 +97,7 @@ class ProjectComponent extends React.Component {
 
                 <div className='infoA fBlack' >
                     <div>{d.infoA[0]}</div>
-                    <div>{d.infoA[1]}</div>
+                    {technologies()}
                     <div>{d.infoA[2]}</div>
                     <div>{d.infoA[3]}</div>
                     {d.infoA[4] ?
