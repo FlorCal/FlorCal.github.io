@@ -17,7 +17,7 @@ import steplerScreen1 from './img/projects/stepler-screen1.jpg'
 import steplerScreen2 from './img/projects/stepler-screen2.jpg'
 import steplerIcon from './img/projects/stepler-icon.jpg'
 import stealthmode2 from './img/projects/stealthmode2.png'
-
+import stealthmodeIcon from './img/projects/stealthmode-icon.svg'
 
 var constants = {
     urls: {
@@ -51,8 +51,15 @@ var constants = {
         {
             name: 'Traveller',
             screens: [stealthmode2],
-            description: 'Travel product focused on scheduling.',
-            infoA: ['Full Stack Engineer','Front End: React, Webpack, ES6, HTML, CSS/Sass, Back End: MongoDB, Monk, Node JS, Express, Bcrypt', 2019, 'San Jose, CA'],
+            icon: stealthmodeIcon,
+            description: 'Travel product focused on scheduling. Adaptive Mobile and Web UI. Design System from scratch.',
+            infoA: [
+                'Full Stack Engineer',
+                [
+                    'Front End: React, Webpack, ES6, HTML, CSS/Sass',
+                    'Back End: MongoDB, Monk, Node JS, Express, Bcrypt'
+                ],
+                2019, 'San Jose, CA'],
         },
         {
             name: 'Rangi Bora',
