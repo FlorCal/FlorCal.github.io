@@ -21,7 +21,7 @@ import stealthmodeIcon from './img/projects/stealthmode-icon.svg'
 
 var constants = {
     urls: {
-        myResume: 'https://docs.google.com/document/d/1zMPzSCq54XSOGFKlDuBzbet3U_oo-87ZB6R_MieDJGA/edit?usp=sharing',
+        myResume: 'https://docs.google.com/document/d/1sF8eTmKJ90UXm7u3TQF4vc0pDJ-TWXnV2mh518N2aek/edit?usp=sharing/edit?usp=sharing',
         myGit:
         'https://github.com/FlorCal',
         myLinkedin:
@@ -59,14 +59,14 @@ var constants = {
                     'Front End: React, Webpack, ES6, HTML, CSS/Sass',
                     'Back End: MongoDB, Monk, Node JS, Express, Bcrypt'
                 ],
-                2019, 'San Jose, CA'],
+                2019, 'San Mateo, CA'],
         },
         {
             name: 'Rangi Bora',
             screens: [rangiboraScreen],
             icon: rangiboraIcon,
             description: 'Programmatic generator of accessible and pleasing sets of 4 color palettes that are WCAG2 compliant. Dynamic hue, saturation and lightness steps fine tune along with AAA or AA score selection.',
-            infoA: ['Front End Engineer','React, Webpack, Sass, CSS Grid', 2018, 'San Jose, CA', 'http://www.rangibora.com/'],
+            infoA: ['Front End Engineer','React, Webpack, Sass, CSS Grid', 2018, 'San Francisco, CA', 'http://www.rangibora.com/'],
             right: true
         },
         {
