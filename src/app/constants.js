@@ -21,7 +21,7 @@ import stealthmodeIcon from './img/projects/stealthmode-icon.svg'
 
 var constants = {
     urls: {
-        myResume: 'https://docs.google.com/document/d/1sF8eTmKJ90UXm7u3TQF4vc0pDJ-TWXnV2mh518N2aek/edit?usp=sharing/edit?usp=sharing',
+        myResume: 'https://docs.google.com/document/d/1mY-kh-tVxMzgS3TJRe8pBa0Ac1-AIUFiO8Ih5Js9pdM/edit?usp=sharing',
         myGit:
         'https://github.com/FlorCal',
         myLinkedin:
