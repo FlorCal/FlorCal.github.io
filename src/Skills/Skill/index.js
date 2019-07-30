@@ -1,5 +1,5 @@
 import React from 'react'
-import {Motion, spring} from 'react-motion'
+import { Motion, spring } from 'react-motion'
 
 class SkillComponent extends React.Component {
 
@@ -12,8 +12,8 @@ class SkillComponent extends React.Component {
         let step = (barWidth - circleRadius * 2) / 9
 
         // Iteration to get cx, x-axis coordinate
-        for(let i = 0; i < 10; i++) {
-            out.push(<circle cx={circleRadius + step * i} cy={circleRadius} r={circleRadius} key={i}/>)
+        for (let i = 0; i < 10; i++) {
+            out.push(<circle cx={circleRadius + step * i} cy={circleRadius} r={circleRadius} key={i} />)
         }
         return out
 
@@ -34,8 +34,8 @@ class SkillComponent extends React.Component {
 
                 <div className="grey"></div>
 
-                <Motion defaultStyle={{x: 0}} style={{x: spring(1)}}>
-                    { value =>
+                <Motion defaultStyle={{ x: 0 }} style={{ x: spring(1) }}>
+                    {value =>
                         <div className="fill"
                             style={{
                                 width: (210 * this.props.points / 10) * value.x
@@ -47,10 +47,10 @@ class SkillComponent extends React.Component {
         )
 
         out.push(
-            <Motion defaultStyle={{x: 0}} style={{x: spring(1)}} key='points'>
-                { value =>
+            <Motion defaultStyle={{ x: 0 }} style={{ x: spring(1) }} key='points'>
+                {value =>
                     <div className='points'>
-                        {(this.props.points * value.x).toFixed(1 )}
+                        {(this.props.points * value.x).toFixed(1)}
                     </div>
                 }
             </Motion>
@@ -60,10 +60,10 @@ class SkillComponent extends React.Component {
     }
 
     plotYears() {
-        let arrYears = [2015, 2016, 2017, 2018]
+        let arrYears = [2015, 2016, 2017, 2018, 2019]
         return (
             <div className='years'>
-                {arrYears.map((year, i) =>(
+                {arrYears.map((year, i) => (
                     <div key={i} className={
                         this.props.years.indexOf(year) != -1 ? 'active' : ''
                     }>{year}</div>

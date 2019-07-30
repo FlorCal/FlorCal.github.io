@@ -12,17 +12,19 @@ class HeaderComponent extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            temperature : null
+            temperature: null
         };
     }
 
     onProjectClick() {
-        window.scrollBy({ top: 680, behavior: 'smooth'
+        window.scrollBy({
+            top: 680, behavior: 'smooth'
         });
     }
 
     onContactClick() {
-        window.scrollBy({ top: 3400, behavior: 'smooth'
+        window.scrollBy({
+            top: 3800, behavior: 'smooth'
         });
     }
 
@@ -38,7 +40,7 @@ class HeaderComponent extends React.Component {
             .query({ APPID: '1d18fba40fda8ca3bdb3d0ec2b999209' }) // API key
             .query({ units: 'imperial' }) // how we're receiving data
             .then(response => {
-                this.setState({temperature:', ' + Math.round(response.body.main.temp) + '℉'})
+                this.setState({ temperature: ', ' + Math.round(response.body.main.temp) + '℉' })
             });
     }
 
@@ -64,8 +66,8 @@ class HeaderComponent extends React.Component {
                 </div>
                 <div className="resume" onClick={this.onResumeClick.bind(this)}>
                     <img src={resume} />
-                    <br/>
-                    <span>Download<br/>Resume</span>
+                    <br />
+                    <span>Download<br />Resume</span>
                 </div>
                 <div className="info">
                     <p>
