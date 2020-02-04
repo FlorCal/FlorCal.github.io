@@ -1,27 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="92px" height="162px" viewBox="0 0 92 162" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
-    <title>florwer</title>
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>flower</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Desktop-HD" transform="translate(-906.000000, -107.000000)">
-            <g id="florwer" transform="translate(907.000000, 108.000000)">
-                <circle id="Oval-5" stroke="#5D3C37" cx="40" cy="30" r="30"></circle>
-                <circle id="Oval-5" stroke="#5D3C37" cx="60" cy="58" r="30"></circle>
-                <circle id="Oval-5" stroke="#5D3C37" cx="30" cy="60" r="30"></circle>
-                <circle id="Oval-6" stroke="#EBEFF2" fill="#5D3C37" cx="70.5" cy="29.5" r="3"></circle>
-                <circle id="Oval-6" stroke="#EBEFF2" fill="#5D3C37" cx="10.5" cy="36.5" r="3"></circle>
-                <circle id="Oval-6" stroke="#EBEFF2" fill="#5D3C37" cx="42.5" cy="33.5" r="3"></circle>
-                <circle id="Oval-6" stroke="#EBEFF2" fill="#5D3C37" cx="30.5" cy="57.5" r="3"></circle>
-                <circle id="Oval-6" stroke="#EBEFF2" fill="#5D3C37" cx="59.5" cy="53.5" r="3"></circle>
-                <path d="M48.3447266,86.0693359 C54.0348307,101.168945 51.7532552,125.979167 41.5,160.5" id="Line-3" stroke="#5D3C37" stroke-linecap="square"></path>
-                <circle id="Oval-6" stroke="#EBEFF2" fill="#5D3C37" cx="46.5" cy="84.5" r="3"></circle>
-                <path d="M72.3623047,100 C62.4082031,117.417318 55.0748698,124.988932 50.3623047,122.714844 C57.2278646,105.355469 64.5611979,97.7838542 72.3623047,100 Z" id="Triangle-3" stroke="#5D3C37"></path>
-                <circle id="Oval-6-Copy" stroke="#EBEFF2" fill="#5D3C37" cx="50.5" cy="121.5" r="3"></circle>
-                <path d="M45,127.789582 C37.3081942,141.880592 31.6415276,148.006202 28,146.166412 C33.3052054,132.122279 38.971872,125.996669 45,127.789582 Z" id="Triangle-3" stroke="#5D3C37" transform="translate(36.500000, 136.985118) scale(-1, 1) translate(-36.500000, -136.985118) "></path>
-                <circle id="Oval-6-Copy" stroke="#EBEFF2" fill="#5D3C37" cx="45.5" cy="145.5" r="3"></circle>
-            </g>
+        <g id="flower" transform="translate(1.000000, 1.000000)" stroke="#7443A1">
+            <circle id="Oval-5" cx="40" cy="30" r="30"></circle>
+            <circle id="Oval-5" cx="60" cy="58" r="30"></circle>
+            <circle id="Oval-5" cx="30" cy="60" r="30"></circle>
+            <circle id="Oval-6" fill="#7443A1" cx="70.5" cy="29.5" r="3"></circle>
+            <circle id="Oval-6" fill="#7443A1" cx="10.5" cy="36.5" r="3"></circle>
+            <circle id="Oval-6" fill="#7443A1" cx="42.5" cy="33.5" r="3"></circle>
+            <circle id="Oval-6" fill="#7443A1" cx="30.5" cy="57.5" r="3"></circle>
+            <circle id="Oval-6" fill="#7443A1" cx="59.5" cy="53.5" r="3"></circle>
+            <path d="M48.3447266,86.0693359 C54.0348307,101.168945 51.7532552,125.979167 41.5,160.5" id="Line-3" stroke-linecap="square"></path>
+            <circle id="Oval-6" fill="#7443A1" cx="46.5" cy="84.5" r="3"></circle>
+            <path d="M72.3623047,100 C62.4082031,117.417318 55.0748698,124.988932 50.3623047,122.714844 C57.2278646,105.355469 64.5611979,97.7838542 72.3623047,100 Z" id="Triangle-3"></path>
+            <circle id="Oval-6-Copy" fill="#7443A1" cx="50.5" cy="121.5" r="3"></circle>
+            <path d="M45,127.789582 C37.3081942,141.880592 31.6415276,148.006202 28,146.166412 C33.3052054,132.122279 38.971872,125.996669 45,127.789582 Z" id="Triangle-3" transform="translate(36.500000, 136.985118) scale(-1, 1) translate(-36.500000, -136.985118) "></path>
+            <circle id="Oval-6-Copy" fill="#7443A1" cx="45.5" cy="145.5" r="3"></circle>
         </g>
     </g>
 </svg>
