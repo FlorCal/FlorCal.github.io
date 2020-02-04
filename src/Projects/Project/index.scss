@@ -1,145 +1,139 @@
 .ProjectComponent {
-    display: grid;
-    grid-template-columns: 520px 125px 1fr;
-    grid-template-rows: 120px 260px;
+  display: grid;
+  grid-template-columns: 520px 125px 1fr;
+  grid-template-rows: 120px 260px;
+  grid-template-areas:
+    "desktop title title"
+    "desktop infoQ infoA";
+  margin: 50px 0 70px;
+
+  &.right {
+    grid-template-columns: 50px 125px 1fr 520px 30px;
     grid-template-areas:
-    'desktop title title'
-    'desktop infoQ infoA';
-    margin: 50px 0 70px;
+      ". title title desktop ."
+      ". infoQ infoA desktop .";
+  }
+
+  &.mobile {
+    grid-template-columns: 260px 260px 125px 1fr;
+    grid-template-areas:
+      "mobile1 mobile2 title title"
+      "mobile1 mobile2 infoQ infoA";
+
+    .mobile1 {
+      grid-area: mobile1;
+      justify-self: right;
+    }
+
+    .mobile2 {
+      grid-area: mobile2;
+    }
+
+    .screen1,
+    .screen2 {
+      grid-area: mobile1;
+      width: 160px;
+      height: 340px;
+      justify-self: end;
+      margin: 20px 22px;
+    }
+
+    .screen2 {
+      grid-area: mobile2;
+      justify-self: auto;
+      margin: 20px 12px;
+    }
 
     &.right {
-        grid-template-columns: 50px 125px 1fr 520px 30px;
-        grid-template-areas:
-        '. title title desktop .'
-        '. infoQ infoA desktop .';
+      grid-template-columns: 60px 125px 1fr 260px 260px 30px;
+      grid-template-areas:
+        ". title title mobile1 mobile2 ."
+        ". infoQ infoA mobile1 mobile2 .";
+    }
+  } // &.mobile
+
+  .desktop {
+    grid-area: desktop;
+    align-self: center;
+    justify-self: center;
+  }
+
+  .screen {
+    grid-area: desktop;
+    justify-self: center;
+    margin-top: 30px;
+    height: 225px;
+    width: 390px;
+    background-size: 100% 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+  .company {
+    grid-area: title;
+    display: grid;
+    grid-template-columns: 95px 420px;
+    grid-template-rows: 50px 70px;
+    grid-template-areas:
+      "icon name"
+      "icon description";
+
+    .icon {
+      grid-area: icon;
+      height: 65px;
+      width: 65px;
+      margin-top: 20px;
+      margin-left: 10px;
+      background-size: 100% 100%;
     }
 
-    &.mobile {
-        grid-template-columns: 260px 260px 125px 1fr;
-        grid-template-areas:
-        'mobile1 mobile2 title title'
-        'mobile1 mobile2 infoQ infoA';
-
-        .mobile1 {
-            grid-area: mobile1;
-            justify-self: right;
-        }
-
-        .mobile2 {
-            grid-area: mobile2;
-        }
-
-        .screen1,
-        .screen2 {
-            grid-area: mobile1;
-            width: 160px;
-            height: 340px;
-            justify-self: end;
-            margin: 20px 22px;
-        }
-
-        .screen2 {
-            grid-area: mobile2;
-            justify-self: auto;
-            margin: 20px 12px;
-        }
-
-        &.right {
-            grid-template-columns: 60px 125px 1fr 260px 260px 30px;
-            grid-template-areas:
-            '. title title mobile1 mobile2 .'
-            '. infoQ infoA mobile1 mobile2 .';
-        }
-
-    } // &.mobile
-
-    .desktop {
-        grid-area: desktop;
-        align-self: center;
-        justify-self: center;
+    .name {
+      grid-area: name;
+      font-size: $sFontBig;
+      font-family: fBlack;
+      margin-top: 20px;
     }
 
-    .screen {
-        grid-area: desktop;
-        justify-self: center;
-        margin-top: 30px;
-        height: 225px;
-        width: 390px;
-        background-size: 100% 100%;
-        border-top-left-radius: 5px;
-        border-top-right-radius: 5px;
+    .description {
+      grid-area: description;
+      font-size: 12px;
+      line-height: 16px;
     }
+  }
 
-    .company {
-        grid-area: title;
-        display: grid;
-        grid-template-columns: 95px 420px;
-        grid-template-rows: 50px 70px;
-        grid-template-areas:
-        'icon name'
-        'icon description';
+  .infoQ {
+    grid-area: infoQ;
 
-        .icon {
-            grid-area: icon;
-            height: 65px;
-            width: 65px;
-            margin-top: 20px;
-            margin-left: 10px;
-            background-size: 100% 100%;
-        }
-
-        .name {
-            grid-area: name;
-            font-size: $sFontBig;
-            font-family: fBlack;
-            margin-top: 20px;
-        }
-
-        .description {
-            grid-area: description;
-            font-size: 12px;
-            line-height: 16px;
-
-        }
+    div {
+      text-align: right;
+      padding: 5px 0;
     }
+  }
 
-    .infoQ {
-        grid-area: infoQ;
+  .infoA {
+    grid-area: infoA;
+    border-left: 1px solid $cPurple;
+    margin-left: 5px;
+    padding-left: 5px;
+    height: fit-content;
 
-        div {
-            text-align: right;
-            padding: 5px 0;
+    div {
+      padding: 5px 0;
+
+      &.url {
+        cursor: pointer;
+        color: $cBlue;
+        margin-top: -2px;
+
+        i {
+          height: 16px;
+          width: 16px;
+          background: url("./app/img/external-link.svg");
+          background-size: 100%;
+          display: inline-block;
+          margin: 0 0 -3px 5px;
         }
+      }
     }
-
-    .infoA {
-        grid-area: infoA;
-        border-left: 1px solid $cBrown;
-        margin-left: 5px;
-        padding-left: 5px;
-        height: fit-content;
-
-        div {
-            padding: 5px 0;
-
-            &.url {
-                cursor: pointer;
-                color: $cBlue;
-                margin-top: -2px;
-
-                i {
-                    height: 16px;
-                    width: 16px;
-                    background: url('./app/img/external-link.svg');
-                    background-size: 100%;
-                    display: inline-block;
-                    margin: 0 0 -3px 5px;
-                }
-            }
-
-        }
-
-
-
-    }
-}//ProjectComponent
+  }
+} //ProjectComponent

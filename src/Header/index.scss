@@ -1,125 +1,122 @@
 .HeaderComponent {
-    display: grid;
-    grid-template-columns: 250px 2fr 1fr 200px;
-    grid-template-rows: 50px repeat(2, 90px) 50px;
-    grid-template-areas:
-    'menu menu menu menu'
-    'portrait name flower resume'
-    'portrait info flower resume'
-    'slant slant slant slant';
-    background: $cGrey;
-    border-radius: 3px;
+  display: grid;
+  grid-template-columns: 250px 2fr 1fr 200px;
+  grid-template-rows: 50px repeat(2, 90px) 50px;
+  grid-template-areas:
+    "menu menu menu menu"
+    "portrait name flower resume"
+    "portrait info flower resume"
+    "slant slant slant slant";
+  background: $cGrey;
+  border-radius: 3px;
 
-    // & > div {
-    //     border: 1px solid red;
-    // }
+  // & > div {
+  //     border: 1px solid red;
+  // }
 
-    .menu {
-        grid-area: menu;
-        font-size: 16px;
-        text-align: right;
-        align-self: center;
+  .menu {
+    grid-area: menu;
+    font-size: 16px;
+    text-align: right;
+    align-self: center;
 
-        a {
-            margin: 8px;
-            color: darken($cBrown, 10%);
-            padding: 0 10px;
-            text-decoration: none;
-            cursor: pointer;
+    a {
+      margin: 8px;
+      color: darken($cPurple, 10%);
+      padding: 0 10px;
+      text-decoration: none;
+      cursor: pointer;
 
-            &:hover,
-            &.active {
-                border-bottom: 1px solid $cBrown;
-            }
-
-
-            &:last-child {
-                margin-right: 24px;
-            }
-        }
-
-    }
-
-    .portrait {
-        grid-area: portrait;
-        height: 170px;
-        width: 170px;
-        overflow: hidden;
-        border-radius: calc(170px/2);
-        justify-self: center;
-        align-self: center;
-        box-shadow: 0 5px 7px rgba(0, 0, 0, .3);
-
-        img {
-            height: 170px;
-            width: 170px;
-        }
-    }
-
-    .name {
-        grid-area: name;
-
-        h1 {
-            padding-top: $sFont;
-            font-size: $sFontHuge;
-            font-family: fLight;
-            color: $cBlack;
-        }
-
-        h2 {
-            font-size: $sFontBig;
-            padding-top: 10px;
-        }
-    }
-
-    .flower {
-        grid-area: flower;
-        justify-self: center;
-        padding-top: 35px;
-    }
-
-    .resume {
-        grid-area: resume;
-        justify-self: center;
-        align-self: center;
-        font-family: fBlack;
-        font-size: $sFontSmall;
-        text-align: center;
-        cursor: pointer;
-
-        &:hover {
-            span {
-                text-decoration: underline;
-            }
-        }
-
-        img {
-            padding: 5px 10px;
-        }
-    } //.resume
-
-    .info {
-        grid-area: info;
-        padding-left: 22px;
-        border-left: 3px solid $cBrown;
-
-        .temp {
-            font-size: 12px;
-        }
-
-        p {
-            padding-top: 12px;
-        }
-    } // .info
-
-    .slant {
-        position: relative;
-        width: 1100px;
-        height: 50px;
-        background: $cWhite;
-        transform-origin: top right;
-        transform: skewY(-2.5deg);
-        box-shadow: 0 -5px 10px rgba(0, 0, 0, .1);
+      &:hover,
+      &.active {
+        border-bottom: 1px solid $cPurple;
       }
 
+      &:last-child {
+        margin-right: 24px;
+      }
+    }
+  }
+
+  .portrait {
+    grid-area: portrait;
+    height: 170px;
+    width: 170px;
+    overflow: hidden;
+    border-radius: calc(170px / 2);
+    justify-self: center;
+    align-self: center;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.3);
+
+    img {
+      height: 170px;
+      width: 170px;
+    }
+  }
+
+  .name {
+    grid-area: name;
+
+    h1 {
+      padding-top: $sFont;
+      font-size: $sFontHuge;
+      font-family: fLight;
+      color: $cBlack;
+    }
+
+    h2 {
+      font-size: $sFontBig;
+      padding-top: 10px;
+    }
+  }
+
+  .flower {
+    grid-area: flower;
+    justify-self: center;
+    padding-top: 35px;
+  }
+
+  .resume {
+    grid-area: resume;
+    justify-self: center;
+    align-self: center;
+    font-family: fBlack;
+    font-size: $sFontSmall;
+    text-align: center;
+    cursor: pointer;
+
+    &:hover {
+      span {
+        text-decoration: underline;
+      }
+    }
+
+    img {
+      padding: 5px 10px;
+    }
+  } //.resume
+
+  .info {
+    grid-area: info;
+    padding-left: 22px;
+    border-left: 3px solid $cPurple;
+
+    .temp {
+      font-size: 12px;
+    }
+
+    p {
+      padding-top: 12px;
+    }
+  } // .info
+
+  .slant {
+    position: relative;
+    width: 1100px;
+    height: 50px;
+    background: $cWhite;
+    transform-origin: top right;
+    transform: skewY(-2.5deg);
+    box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.1);
+  }
 } // .HeaderComponent

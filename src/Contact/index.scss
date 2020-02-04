@@ -1,110 +1,101 @@
 .ContactComponent {
+  display: grid;
+  grid-template-columns: 570px 1fr 110px;
+  grid-template-rows: 130px 440px;
+  grid-template-areas:
+    "ribbon . ."
+    "map form .";
+
+  .map {
+    grid-area: map;
+    height: 360px;
+    width: 465px;
+    margin-left: 30px;
+    justify-self: center;
+    border: 1px solid $cPurple;
+    border-radius: 4px;
+    overflow: hidden;
+
+    .PinComponent {
+      height: 50px;
+      width: 30px;
+      transform: translate(-50%, -90%);
+      background: url("./app/img/pin.svg");
+      background-size: 100%;
+    }
+  }
+
+  .form {
+    grid-area: form;
     display: grid;
-    grid-template-columns: 570px 1fr 110px;
-    grid-template-rows: 130px 440px;
+    grid-template-columns: 115px 305px;
+    grid-template-rows: 90px 350px;
     grid-template-areas:
-    'ribbon . .'
-    'map form .';
+      "header header"
+      "label box";
 
-
-
-    .map {
-        grid-area: map;
-        height: 360px;
-        width: 465px;
-        margin-left: 30px;
-        justify-self: center;
-        border: 1px solid $cBrown;
-        border-radius: 4px;
-        overflow: hidden;
-
-        .PinComponent {
-            height: 50px;
-            width: 30px;
-            transform: translate(-50%, -90%);
-            background: url('./app/img/pin.svg');
-            background-size: 100%;
-        }
+    span {
+      grid-area: header;
+      font-family: fBlack;
+      justify-self: right;
+      margin-top: 30px;
     }
 
-    .form {
-        grid-area: form;
-        display: grid;
-        grid-template-columns: 115px 305px;
-        grid-template-rows: 90px 350px;
-        grid-template-areas:
-        'header header'
-        'label box';
+    .label {
+      grid-area: label;
+      text-align: right;
+      padding-right: 5px;
 
-        span {
-            grid-area: header;
-            font-family: fBlack;
-            justify-self: right;
-            margin-top: 30px;
+      .email {
+        margin-top: 8px;
+      }
+
+      .message {
+        margin-top: 25px;
+      }
+    }
+
+    .inputs {
+      grid-area: box;
+
+      input {
+        grid-area: box;
+        font-size: $sFont;
+        height: 30px;
+
+        &[type="email"] {
+          border-radius: 4px;
+          border: 1px solid $cPurple;
+          padding: 0;
+          box-sizing: content-box;
+          width: 96%;
+          padding-left: 10px;
         }
 
-        .label {
-            grid-area: label;
-            text-align: right;
-            padding-right: 5px;
-
-
-            .email {
-                margin-top: 8px;
-            }
-
-            .message {
-                margin-top: 25px;
-            }
+        &[type="submit"] {
+          border-radius: 4px;
+          background-color: $cPurple;
+          color: $cWhite;
+          font-size: $sFont;
+          cursor: pointer;
+          padding: 0;
+          box-sizing: content-box;
+          width: 100%;
+          margin-top: 6px;
+          border: 0;
         }
+      }
 
-        .inputs {
-            grid-area: box;
-
-            input {
-                grid-area: box;
-                font-size: $sFont;
-                height: 30px;
-
-                &[type='email'] {
-                    border-radius: 4px;
-                    border: 1px solid $cBrown;
-                    padding: 0;
-                    box-sizing: content-box;
-                    width: 96%;
-                    padding-left: 10px;
-                }
-
-                &[type='submit'] {
-                    border-radius: 4px;
-                    background-color: $cBrown;
-                    color: $cWhite;
-                    font-size: $sFont;
-                    cursor: pointer;
-                    padding: 0;
-                    box-sizing: content-box;
-                    width: 100%;
-                    margin-top: 6px;
-                    border: 0;
-                }
-            }
-
-            textarea {
-                height: 105px;
-                border-radius: 4px;
-                border: 1px solid $cBrown;
-                font-size: $sFont;
-                box-sizing: content-box;
-                width: 96%;
-                margin-top: 10px;
-                padding: 5px 0 0 10px;
-            }
-        }
-
-
-
-
-
-    }// form
-
+      textarea {
+        height: 105px;
+        border-radius: 4px;
+        border: 1px solid $cPurple;
+        font-size: $sFont;
+        box-sizing: content-box;
+        width: 96%;
+        margin-top: 10px;
+        padding: 5px 0 0 10px;
+      }
+    }
+  } // form
 } // ContactComponent

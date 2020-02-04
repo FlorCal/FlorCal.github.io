@@ -1,23 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="231px" height="62px" viewBox="0 0 231 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 7</title>
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>ribbon</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <polygon id="path-1" points="0 10 223 0 213 41 0 51"></polygon>
-        <filter x="-3.1%" y="-9.8%" width="106.3%" height="127.5%" filterUnits="objectBoundingBox" id="filter-2">
+        <filter x="-5.4%" y="-23.5%" width="110.8%" height="147.1%" filterUnits="objectBoundingBox" id="filter-1">
             <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
         </filter>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Desktop-HD" transform="translate(-155.000000, -736.000000)">
-            <g id="Group-7" transform="translate(159.000000, 738.000000)">
-                <polygon id="Triangle-2-Copy" fill="#2E2220" points="11 49 11 60 1 50.4841567"></polygon>
-                <g id="Rectangle-4-Copy">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
-                    <use fill="#5D3C37" fill-rule="evenodd" xlink:href="#path-1"></use>
+        <g id="ribbon" transform="translate(4.000000, 2.000000)">
+            <polygon id="Triangle-2-Copy" fill="#2E2220" points="11 49 11 60 1 50.4841567"></polygon>
+            <g id="Rectangle-4-Copy" filter="url(#filter-1)">
+                <g id="path-1-link" fill="#000000">
+                    <polygon id="path-1" points="0 10 223 0 213 41 0 51"></polygon>
+                </g>
+                <g id="path-1-link" fill="#663C6D">
+                    <polygon id="path-1" points="0 10 223 0 213 41 0 51"></polygon>
                 </g>
             </g>
         </g>

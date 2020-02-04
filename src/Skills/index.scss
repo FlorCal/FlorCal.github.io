@@ -1,45 +1,45 @@
 .SkillsComponent {
-    position: relative;
-    display: grid;
-    background: $cWhite;
-    grid-template-columns: 490px 1fr 125px;
-    grid-template-rows: 130px min-content;
-    grid-template-areas:
-    'Ribbon links .'
-    'group1 group2 .';
+  position: relative;
+  display: grid;
+  background: $cWhite;
+  grid-template-columns: 490px 1fr 125px;
+  grid-template-rows: 130px min-content;
+  grid-template-areas:
+    "Ribbon links ."
+    "group1 group2 .";
 
-    .links {
-        grid-area: links;
-        font-size: 16px;
-        text-align: right;
-        align-self: center;
+  .links {
+    grid-area: links;
+    font-size: 16px;
+    text-align: right;
+    align-self: center;
 
-        a {
-            color: darken($cBrown, 10%);
-            margin: 10px;
-            padding: 0 10px;
-            text-decoration: none;
-            cursor: pointer;
+    a {
+      color: darken($cPurple, 10%);
+      margin: 10px;
+      padding: 0 10px;
+      text-decoration: none;
+      cursor: pointer;
 
-            &:hover,
-            &.active {
-                border-bottom: 1px solid $cBrown;
-            }
+      &:hover,
+      &.active {
+        border-bottom: 1px solid $cPurple;
+      }
 
-            &:last-child  {
-                margin-right: 4px;
-            }
-        }
+      &:last-child {
+        margin-right: 4px;
+      }
     }
+  }
 
-    .group1 {
-        grid-area: group1;
-        justify-self: right;
-        margin-bottom: 100px;
-    }
+  .group1 {
+    grid-area: group1;
+    justify-self: right;
+    margin-bottom: 100px;
+  }
 
-    .group2 {
-        grid-area: group2;
-        justify-self: right;
-    }
+  .group2 {
+    grid-area: group2;
+    justify-self: right;
+  }
 } // .SkillsComponent

@@ -4,57 +4,57 @@ $cGrey: #ebeff2;
 $cBlack: #000;
 $cBrown: #5d3c37;
 $cBlue: #4a90e2;
+$cPurple: #663c6d;
 $sFont: 14px;
 $sFontHuge: 28px;
 $sFontBig: 18px;
 $sFontSmall: 12px;
 
 @font-face {
-    font-family: fMedium;
-    src: url('app/fonts/Avenir-Medium-09.ttf');
+  font-family: fMedium;
+  src: url("app/fonts/Avenir-Medium-09.ttf");
 }
 
 @font-face {
-    font-family: fLight;
-    src: url('app/fonts/Avenir-Light-07.ttf');
+  font-family: fLight;
+  src: url("app/fonts/Avenir-Light-07.ttf");
 }
 
 @font-face {
-    font-family: fBlack;
-    src: url('app/fonts/Avenir-Black-03.ttf');
+  font-family: fBlack;
+  src: url("app/fonts/Avenir-Black-03.ttf");
 }
-
 
 // main
-@import './app/reset.scss';
-@import './app/container.scss';
+@import "./app/reset.scss";
+@import "./app/container.scss";
 
 // components
-@import './Header/index.scss';
-@import './Skills/index.scss';
-@import './Skills/Skill/index.scss';
-@import './app/Ribbon/index.scss';
-@import './Projects/Project/index.scss';
-@import './Footer/index.scss';
-@import './app/Scroll/index.scss';
-@import './Contact/index.scss';
+@import "./Header/index.scss";
+@import "./Skills/index.scss";
+@import "./Skills/Skill/index.scss";
+@import "./app/Ribbon/index.scss";
+@import "./Projects/Project/index.scss";
+@import "./Footer/index.scss";
+@import "./app/Scroll/index.scss";
+@import "./Contact/index.scss";
 
 // core
 body {
-    background: $cBrown;
-    font-family: fMedium;
-    font-size: $sFont;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    color: $cBrown;
+  background: $cPurple;
+  font-family: fMedium;
+  font-size: $sFont;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $cPurple;
 
-    input,
-    textarea {
-        outline: none;
-        resize: none;
-    }
+  input,
+  textarea {
+    outline: none;
+    resize: none;
+  }
 
-    .fBlack {
-        font-family: fBlack;
-    }
+  .fBlack {
+    font-family: fBlack;
+  }
 }
