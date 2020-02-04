@@ -21,7 +21,7 @@ class FooterComponent extends React.Component {
     }
 
     render() {
-        return(
+        return (
             <div className='FooterComponent'>
                 <div className='linkedin'
                     onClick={this.onLinkedinClick.bind(this)}>
@@ -34,7 +34,7 @@ class FooterComponent extends React.Component {
                     <a>My GitHub</a>
                 </div>
                 <div className='copyright'>
-                    <a>© 2019 Flor Calderon</a>
+                    <a>© 2020 Flor Calderon</a>
                 </div>
             </div>
         )
