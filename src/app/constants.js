@@ -59,14 +59,14 @@ var constants = {
                     'Front End: React/Redux/Router, Webpack, ES6, HTML, CSS/Sass',
                     'Back End: MongoDB, Monk, Node JS, Express, Bcrypt'
                 ],
-                2019, 'San Mateo, CA'],
+                2018, 'San Mateo, CA'],
         },
         {
             name: 'Rangi Bora',
             screens: [rangiboraScreen],
             icon: rangiboraIcon,
             description: 'Programmatic generator of accessible and pleasing sets of 4 color palettes that are WCAG2 compliant. Dynamic hue, saturation and lightness steps fine tune along with AAA or AA score selection.',
-            infoA: ['Front End Engineer', 'React, Webpack, Sass, CSS Grid', 2018, 'San Francisco, CA', 'http://www.rangibora.com/'],
+            infoA: ['Front End Engineer', 'React, Webpack, Sass, CSS Grid', 2017, 'San Francisco, CA', 'http://www.rangibora.com/'],
             right: true
         },
         {
@@ -74,14 +74,14 @@ var constants = {
             screens: [gridmanScreen],
             icon: gridmanIcon,
             description: 'CSS Grid inspector for Chrome. The only one CSS-grid highlighter that is lightning Fast!  I’m working on it as Developer.',
-            infoA: ['Front End Web Engineer', 'React, D3 , SVG, CSS Grid', 2018, 'San Jose, CA', 'https://goo.gl/kuP9iR'],
+            infoA: ['Front End Web Engineer', 'React, D3 , SVG, CSS Grid', 2017, 'San Jose, CA', 'https://goo.gl/kuP9iR'],
         },
         {
             name: 'florcalderon.com ',
             screens: [florcalderonScreen],
             icon: florcalderonIcon,
             description: 'My personal profile page. Starting from ideations, continued with design, layout architecture, full development & support.',
-            infoA: ['Front End Engineer & Designer', 'React, SVG, Sass, Sketch', 2018, 'San Jose, CA', 'https://florcalderon.com'],
+            infoA: ['Front End Engineer & Designer', 'React, SVG, Sass, Sketch', 2017, 'San Jose, CA', 'https://florcalderon.com'],
             right: true
         },
         {
@@ -89,7 +89,7 @@ var constants = {
             screens: [jammmingScreen],
             icon: jammmingIcon,
             description: `Spotify playlist manager that involved working with Spotify APIs, Spotify Authorization, Deployment & Design`,
-            infoA: ['Full Stack Engineer', 'React, Node, Express, APIs, CSS3', 2017, 'San Jose, CA', 'https://jamm_ming.surge.sh'],
+            infoA: ['Full Stack Engineer', 'React, Node, Express, APIs, CSS3', 2016, 'San Jose, CA', 'https://jamm_ming.surge.sh'],
         },
         {
             name: 'TallyGo',
@@ -105,7 +105,7 @@ var constants = {
             screens: [gymapScreen1, gymapScreen2],
             icon: gymapIcon,
             description: 'I was doing Automated Quality testing for Android & iOS platforms across mobile and tablet devices.',
-            infoA: ['QA Engineer', 'JavaScript, Selenium, Xcode', 2016, 'San Jose, CA', 'http://gymap.me'],
+            infoA: ['QA Engineer', 'JavaScript, Selenium, Xcode', 2014, 'San Jose, CA', 'http://gymap.me'],
             mobile: true,
         },
         {
@@ -113,7 +113,7 @@ var constants = {
             screens: [steplerScreen1, steplerScreen2],
             icon: steplerIcon,
             description: 'I performed discovery testing and focused on testing Spanish voice recognition feature on Android & iOS platforms.',
-            infoA: ['QA Engineer', 'JavaScript, Selenium IDE, Xcode', 2015, 'San jose, CA'],
+            infoA: ['QA Engineer', 'JavaScript, Selenium IDE, Xcode', 2014, 'San jose, CA'],
             mobile: true,
             right: true
         },
