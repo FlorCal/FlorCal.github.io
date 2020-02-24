@@ -17,10 +17,10 @@ class ContactComponent extends React.Component {
 
         return (
             <div id='contact' className='ContactComponent'>
-                <Ribbon title='Contact'/>
+                <Ribbon title='Contact' />
                 <div className='map'>
                     <GoogleMapReact
-                        bootstrapURLKeys={{ key: 'AIzaSyDYD4-Z3y5oLChHA4nl7yQMDKRZYuKXMEs'}}
+                        bootstrapURLKeys={{ key: 'AIzaSyAb_KwD-oXuqJNHgRYoGJ10hUfCD-KNu18' }}
                         defaultCenter={{
                             lat: 37.545556168351936,
                             lng: -122.1734832873044
@@ -48,9 +48,9 @@ class ContactComponent extends React.Component {
                     </div>
 
                     <div className='inputs'>
-                        <input type="email" name="_replyto"/>
-                        <textarea name="messagebox"/>
-                        <input type="submit" value="Send Message"/>
+                        <input type="email" name="_replyto" />
+                        <textarea name="messagebox" />
+                        <input type="submit" value="Send Message" />
                     </div>
 
 
