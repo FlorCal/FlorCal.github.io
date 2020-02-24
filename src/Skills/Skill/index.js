@@ -60,7 +60,7 @@ class SkillComponent extends React.Component {
     }
 
     plotYears() {
-        let arrYears = [2015, 2016, 2017, 2018, 2019]
+        let arrYears = [2016, 2017, 2018, 2019, 2020]
         return (
             <div className='years'>
                 {arrYears.map((year, i) => (
