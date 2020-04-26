@@ -16,8 +16,12 @@ import tallygoIcon from './img/projects/tallygo-icon.png'
 import steplerScreen1 from './img/projects/stepler-screen1.jpg'
 import steplerScreen2 from './img/projects/stepler-screen2.jpg'
 import steplerIcon from './img/projects/stepler-icon.jpg'
-import stealthmode2 from './img/projects/stealthmode2.png'
-import stealthmodeIcon from './img/projects/stealthmode-icon.svg'
+import mywanderScreen1 from './img/projects/mywander-screen1.jpg'
+import mywanderScreen2 from './img/projects/mywander-screen2.jpg'
+import mywanderIcon from './img/projects/mywanderlogo.svg'
+
+// import stealthmode2 from './img/projects/stealthmode2.png'
+// import stealthmodeIcon from './img/projects/stealthmode-icon.svg'
 
 var constants = {
     urls: {
@@ -49,17 +53,18 @@ var constants = {
 
     projects: [
         {
-            name: 'Traveller',
-            screens: [stealthmode2],
-            icon: stealthmodeIcon,
-            description: 'Travel product focused on scheduling. Adaptive Mobile and Web UI. Design System from scratch.',
+            name: 'MyWander',
+            screens: [mywanderScreen1, mywanderScreen2],
+            icon: mywanderIcon,
+            description: 'Group travel product focused on scheduling. Adaptive Mobile and Web UI. Design System from scratch.',
             infoA: [
                 'Full Stack Engineer',
                 [
                     'Front End: React/Redux/Router, Webpack, ES6, HTML, CSS/Sass',
                     'Back End: MongoDB, Monk, Node JS, Express, Bcrypt'
                 ],
-                2018, 'San Mateo, CA'],
+                2018, 'San Mateo, CA', 'http://app.mywander.co/'],
+            mobile: true
         },
         {
             name: 'Rangi Bora',
