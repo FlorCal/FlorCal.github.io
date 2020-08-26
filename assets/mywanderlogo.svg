@@ -1,25 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="22px" height="29px" viewBox="0 0 22 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="65px" height="65px" viewBox="0 0 65 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 5</title>
+    <title>Artboard</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <filter x="-11.1%" y="-16.4%" width="122.2%" height="132.9%" filterUnits="objectBoundingBox" id="filter-1">
-            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
-                <feMergeNode in="SourceGraphic"></feMergeNode>
-            </feMerge>
-        </filter>
-    </defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group" filter="url(#filter-1)" transform="translate(4.000000, 2.000000)" fill="#98CCD5">
-            <g id="Group-5">
-                <path d="M6.71327587,16.2186782 L1.9604023,11.4660345 C-0.653620686,8.85178161 -0.653390801,4.57454023 1.96063219,1.96051724 C4.57488506,-0.653505747 8.85212644,-0.653505747 11.4661494,1.96051724 C14.0801724,4.57454023 14.0801724,8.85178161 11.4661494,11.4660345 L6.71327587,16.2186782 Z" id="Path"></path>
-                <path d="M5.15879311,16.4384483 L8.25350575,16.4384483 C8.62431035,16.4384483 8.92752874,16.7418966 8.92752874,17.1124713 L8.92752874,20.2071839 C8.92752874,20.5777586 8.62431035,20.880977 8.25350575,20.880977 L5.15879311,20.880977 C4.78821839,20.880977 4.48477012,20.5777586 4.48477012,20.2071839 L4.48477012,17.1124713 C4.48477012,16.7418966 4.78821839,16.4384483 5.15879311,16.4384483 Z" id="Path"></path>
-            </g>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(12.000000, 0.000000)" fill="#2B3957">
+            <path d="M20.9998202,50 L6.13234087,35.3482398 C-2.04459301,27.2888503 -2.0438739,14.1026913 6.13305997,6.04401056 C14.3107129,-2.01467019 27.6903657,-2.01467019 35.8672996,6.04401056 C44.0442335,14.1026913 44.0442335,27.2888503 35.8672996,35.3482398 L20.9998202,50 Z" id="Path"></path>
+            <path d="M16.1239781,50 L25.8760219,50 C27.0444996,50 28,51.0245796 28,52.2758085 L28,62.7249677 C28,63.9761966 27.0444996,65 25.8760219,65 L16.1239781,65 C14.9562248,65 14,63.9761966 14,62.7249677 L14,52.2758085 C14,51.0245796 14.9562248,50 16.1239781,50 Z" id="Path"></path>
         </g>
     </g>
 </svg>
