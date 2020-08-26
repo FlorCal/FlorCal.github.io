@@ -25,7 +25,7 @@ import mywanderIcon from './img/projects/mywanderlogo.svg'
 
 var constants = {
     urls: {
-        myResume: 'https://docs.google.com/document/d/1CBAtaOPTVoYcBwBWTTueUcCBVLYYuHRLjk681z4umcA/edit?usp=sharing',
+        myResume:'https://docs.google.com/document/d/1_bNyPdz65bECHR3tj4eAU3xW_hqCvCZazvr8hsarHI0/edit?usp=sharing',
         myGit:
             'https://github.com/FlorCal',
         myLinkedin:
@@ -36,18 +36,19 @@ var constants = {
 
     skills: {
         group1: [
-            ['JavaScript / ES6', 9.2, [2016, 2017, 2018, 2019, 2020]],
-            ['React / Redux', 8.5, [2017, 2018, 2019, 2020]],
-            ['Node / Express', 8.5, [2016, 2017, 2018, 2019, 2020]],
-            ['D3 / SVG', 7.3, [2018]],
-            ['jQuery', 6.2, [2016, 2017]]
+            ['JavaScript / TypeScript', 9.5, [2016, 2017, 2018, 2019, 2020]],
+            ['React / Hooks / Redux', 8.5, [2017, 2018, 2019, 2020]],
+            ['Node / Express / Mongo', 8.5, [2016, 2017, 2018, 2019, 2020]],
+            ['GraphQL / Apollo', 7, [2018, 2019, 2020]],
+            ['D3 / SVG', 6.5, [2018, 2019]],
+
         ],
         group2: [
-            ['HTML5', 9.5, [2015, 2016, 2017, 2018, 2019, 2020]],
-            ['CSS3 / SCSS', 9.5, [2015, 2016, 2017, 2018, 2019, 2020]],
-            ['Git / GitHub', 8.2, [2016, 2017, 2018, 2019, 2020]],
-            ['Scrum / Trello', 9.1, [2016, 2017, 2018, 2019, 2020]],
-            ['Sketch / Design', 7.5, [2016, 2017, 2018, 2019, 2020]],
+            ['HTML5 / CSS3', 10, [2015, 2016, 2017, 2018, 2019, 2020]],
+            ['Styled-Components', 9.5, [2015, 2016, 2017, 2018, 2019, 2020]],
+            ['Git / GitHub / Bitbucket', 8.2, [2016, 2017, 2018, 2019, 2020]],
+            ['Scrum / Jira / Trello', 9.1, [2016, 2017, 2018, 2019, 2020]],
+            ['Design / Figma / Sketch', 7.5, [2016, 2017, 2018, 2019, 2020]],
         ]
     },
 

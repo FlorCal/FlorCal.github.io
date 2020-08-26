@@ -1,9 +1,9 @@
 .SkillComponent {
-  width: 410px;
+  width: 430px;
   height: 30px;
   display: grid;
   background: $cWhite;
-  grid-template-columns: 160px 1fr 30px;
+  grid-template-columns: 170px 1fr 30px;
   grid-template-rows: 30px;
   grid-template-areas: "title rating points";
   align-items: center;
