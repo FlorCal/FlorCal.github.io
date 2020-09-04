@@ -25,7 +25,7 @@ import mywanderIcon from './img/projects/mywanderlogo.svg'
 
 var constants = {
     urls: {
-        myResume:'https://docs.google.com/document/d/1_bNyPdz65bECHR3tj4eAU3xW_hqCvCZazvr8hsarHI0/edit?usp=sharing',
+        myResume: 'https://docs.google.com/document/d/1_bNyPdz65bECHR3tj4eAU3xW_hqCvCZazvr8hsarHI0/edit?usp=sharing',
         myGit:
             'https://github.com/FlorCal',
         myLinkedin:
